@@ -27,6 +27,7 @@ namespace BTS.Business
         {
             try
             {
+                // Fahmy upload git
                 string Url = Confgration_Odoo._Domain_URL, db = Confgration_Odoo._DataBaseName, pass = Confgration_Odoo._Password, user = Confgration_Odoo._UserName;
                 XmlRpcClient client = new XmlRpcClient();
                 client.Url = Url;
