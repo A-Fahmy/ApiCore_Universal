@@ -1,0 +1,30 @@
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\bin\Release\BTS.Data.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\bin\Release\BTS.Data.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\bin\Release\BTS.Data.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\bin\Release\BTS.Entities.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\bin\Release\EntityFramework.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\bin\Release\EntityFramework.SqlServer.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\bin\Release\BTS.Entities.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\bin\Release\BTS.Entities.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\bin\Release\EntityFramework.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\bin\Release\EntityFramework.SqlServer.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\obj\Release\BTS.Data.csprojAssemblyReference.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\obj\Release\BTS.Data.csproj.CoreCompileInputs.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\obj\Release\BTS.Data.csproj.CopyComplete
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\obj\Release\BTS.Data.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Data\obj\Release\BTS.Data.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\bin\Release\BTS.Data.dll.config
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\bin\Release\BTS.Data.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\bin\Release\BTS.Data.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\bin\Release\BTS.Entities.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\bin\Release\EntityFramework.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\bin\Release\EntityFramework.SqlServer.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\bin\Release\BTS.Entities.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\bin\Release\BTS.Entities.dll.config
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\bin\Release\EntityFramework.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\bin\Release\EntityFramework.SqlServer.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\obj\Release\BTS.Data.csprojAssemblyReference.cache
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\obj\Release\BTS.Data.csproj.CoreCompileInputs.cache
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\obj\Release\BTS.Data.csproj.CopyComplete
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\obj\Release\BTS.Data.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Data\obj\Release\BTS.Data.pdb

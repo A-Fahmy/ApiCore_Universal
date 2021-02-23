@@ -1,0 +1,64 @@
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\BTS.Business.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\BTS.Business.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\BTS.Business.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\BTS.Data.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\BTS.Entities.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\BTS.ServiceManager.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\EntityFramework.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\EntityFramework.SqlServer.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\Newtonsoft.Json.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\BTS.Data.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\BTS.Data.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\BTS.Entities.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\BTS.Entities.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\BTS.ServiceManager.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\BTS.ServiceManager.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\EntityFramework.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Debug\EntityFramework.SqlServer.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\obj\Debug\BTS.Business.csprojAssemblyReference.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\obj\Debug\BTS.Business.csproj.CoreCompileInputs.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\obj\Debug\BTS.Business.csproj.CopyComplete
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\obj\Debug\BTS.Business.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\obj\Debug\BTS.Business.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\BTS.Business.dll.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\BTS.Business.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\BTS.Business.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\BTS.Data.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\BTS.Entities.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\CookComputing.XmlRpcV2.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\EntityFramework.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\Newtonsoft.Json.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\OdooRpcWrapper.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\xmlrpcwsc.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\BTS.Data.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\BTS.Data.dll.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\BTS.Entities.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\BTS.Entities.dll.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\EntityFramework.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\bin\Debug\xmlrpcwsc.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\obj\Debug\BTS.Business.csprojAssemblyReference.cache
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\obj\Debug\BTS.Business.csproj.CoreCompileInputs.cache
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\obj\Debug\BTS.Business.csproj.CopyComplete
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\obj\Debug\BTS.Business.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Business\obj\Debug\BTS.Business.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\BTS.Business.dll.config
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\BTS.Business.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\BTS.Business.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\BTS.Data.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\BTS.Entities.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\EntityFramework.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\Newtonsoft.Json.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\BTS.Data.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\BTS.Data.dll.config
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\BTS.Entities.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\BTS.Entities.dll.config
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\EntityFramework.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\obj\Debug\BTS.Business.csprojAssemblyReference.cache
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\obj\Debug\BTS.Business.csproj.CoreCompileInputs.cache
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\obj\Debug\BTS.Business.csproj.CopyComplete
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\obj\Debug\BTS.Business.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\obj\Debug\BTS.Business.pdb

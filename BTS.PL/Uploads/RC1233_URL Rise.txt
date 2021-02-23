@@ -1,0 +1,8 @@
+http://160.153.244.15:9393           Login
+
+http://160.153.244.15:9292/api 
+
+
+
+
+http://localhost:1114/Forms/Settings/CheckDocument.aspx?UserID=R1029&Password=111

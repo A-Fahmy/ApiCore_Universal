@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>73cb7ebd-cbd3-48ef-9d4e-be8cbad7cad8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BTS.Business">
+      <HintPath>..\BTS.Business\bin\Debug\BTS.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="BTS.Entities">
+      <HintPath>..\BTS.Business\bin\Debug\BTS.Entities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>

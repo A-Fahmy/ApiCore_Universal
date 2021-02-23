@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wBkz+jQK4arYDLl1kzCCT88XOBBlrv7BGQrQ1kNZRr03Zx5CoymW4zUOk5ir3tKxMeEstvX7TrkRySwYD73aLQ==",
+  "success": true,
+  "projectFilePath": "D:\\It systems\\Universal\\ApiCore_Universal\\WebAPICoreService\\WebAPICoreService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\A.Fahmy\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\3.1.7\\microsoft.netcore.app.host.linux-x64.3.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

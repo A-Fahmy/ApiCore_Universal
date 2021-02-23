@@ -1,0 +1,25 @@
+    class Contact
+    {
+        [PrimaryKey, Unique,AutoIncrement, Column("Code")]
+        public int Code {get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Prefix { get; set; }
+        public bool IsFavorite { get; set; }
+        public string JobTitle { get; set; }
+        public string RelatedAccounts { get; set; }
+        public string MobileNumber { get; set; }
+        public string  PhoneNumber { get; set; }
+        public string Country { get; set; }
+        public string City { get; set; }
+        public string state { get; set; }
+        public string Email { get; set; }
+        public string Address { get; set; }
+        public int ResourceCode { get; set; }
+        public string Affinity { get; set; }
+        public string BuyingRole { get; set; }
+        public int Postal { get; set; }
+        public int CountryCode { get; set; }
+        public int AreaCode { get; set; }
+        public int RelatedAccountCode { get; set; }
+    }

@@ -1,0 +1,79 @@
+﻿<#@ template debug="True" language="C#" hostspecific="True" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.IO" #>
+<#@ include file="MultipleOutputHelper.ttinclude" #>
+<#  bool doMultiFile=true; #>
+
+<# var manager = Manager.Create(Host, GenerationEnvironment);#>
+<#
+	string inputFile = this.Host.ResolvePath(@"..\BTS.Entities\");
+	DirectoryInfo dir = new DirectoryInfo(inputFile);
+
+	foreach (var file in dir.GetFiles())
+    {
+		string[] parts = file.Name.Split('.');
+		
+		if (parts[1] == "cs" && parts[0] != "Entities" && parts[0] != "CommonSettings" )
+		{
+			string className = parts[0];
+			manager.StartNewFile(className + "Business.cs");
+		
+			Write("using System.Collections.Generic;" + Environment.NewLine);	
+			Write("using System.Linq;" + Environment.NewLine);
+			Write("using BTS.Data.Repositories;" + Environment.NewLine);	
+			Write("using BTS.Entities;" + Environment.NewLine + Environment.NewLine);	
+			
+			Write("namespace BTS.Business" + Environment.NewLine);	
+			Write("{" + Environment.NewLine);	
+			
+			Write("    public partial class " + className + "Business" + Environment.NewLine);	
+			Write("    {" + Environment.NewLine);	
+			
+			Write("        public static List<" + className + "> GetAll()" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            " + className + "Repository Obj = new " + className + "Repository();" + Environment.NewLine);
+			Write("            List<" + className + "> lstResult = Obj.GetAll().ToList();" + Environment.NewLine);
+			Write("            return lstResult;" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public static List<" + className + "> GetActiveList()" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            " + className + "Repository Obj = new " + className + "Repository();" + Environment.NewLine);
+			Write("            List<" + className + "> lstResult = Obj.GetActiveList().ToList();" + Environment.NewLine);
+			Write("            return lstResult;" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public static " + className + " GetByCode(int Code)" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            " + className + "Repository Obj = new " + className + "Repository();" + Environment.NewLine);
+			Write("            " + className + " Result = Obj.GetByCode(Code);" + Environment.NewLine);
+			Write("            return Result;" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public static int Insert(" + className + " _Obj)" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            " + className + "Repository Obj = new " + className + "Repository();" + Environment.NewLine);
+			Write("            return Obj.Insert(_Obj);" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public static void Update(" + className + " _Obj)" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            " + className + "Repository Obj = new " + className + "Repository();" + Environment.NewLine);
+			Write("            Obj.Update(_Obj);" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public static bool Delete(int Code)" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            " + className + "Repository Obj = new " + className + "Repository();" + Environment.NewLine);
+			Write("            Obj.Delete(Code);" + Environment.NewLine);
+			Write("            return true;" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("    }" + Environment.NewLine);	
+			Write("}" + Environment.NewLine);	
+
+			manager.EndBlock();
+		}
+    }
+	manager.Process(doMultiFile);	
+#>

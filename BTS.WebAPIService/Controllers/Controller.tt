@@ -1,0 +1,72 @@
+﻿<#@ template debug="True" language="C#" hostspecific="True" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.IO" #>
+<#@ include file="MultipleOutputHelper.ttinclude" #>
+<#  bool doMultiFile=true; #>
+
+<# var manager = Manager.Create(Host, GenerationEnvironment);#>
+<#
+	string inputFile = this.Host.ResolvePath(@"..\..\BTS.Entities\");
+	string inputFileExtension = this.Host.ResolvePath(@"..\..\BTS.Business\");
+	DirectoryInfo dir = new DirectoryInfo(inputFile);
+	DirectoryInfo dirExtension = new DirectoryInfo(inputFileExtension);
+
+	foreach (var file in dir.GetFiles())
+    {
+		string[] parts = file.Name.Split('.');
+		
+		if (parts[1] == "cs" && parts[0] != "Entities" && parts[0] != "CommonSettings" )
+		{
+			string className = parts[0];
+			manager.StartNewFile(className + "Controller.cs");
+		
+			Write("using System.Collections.Generic;" + Environment.NewLine);	
+			Write("using System.Web.Http;" + Environment.NewLine);	
+			Write("using BTS.Business;" + Environment.NewLine);	
+			Write("using BTS.Entities;" + Environment.NewLine + Environment.NewLine);	
+
+			Write("namespace BTS.Services.Controllers" + Environment.NewLine);	
+			Write("{" + Environment.NewLine);	
+			
+			Write("    public partial class " + className + "Controller : ApiController" + Environment.NewLine);	
+			Write("    {" + Environment.NewLine);	
+			
+			Write("        public IEnumerable<" + className + "> GetAll()" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            return " + className + "Business.GetAll();" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public IEnumerable<" + className + "> GetActiveList()" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            return " + className + "Business.GetActiveList();" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public IHttpActionResult GetByCode(int Code)" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            return Ok(" + className + "Business.GetByCode(Code));" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public int Insert(" + className + " Obj)" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            return " + className + "Business.Insert(Obj);" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public void Update(" + className + " Obj)" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            " + className + "Business.Update(Obj);" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        [HttpGet]" + Environment.NewLine);	
+			Write("        public IHttpActionResult Delete(int Code)" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            return Ok(" + className + "Business.Delete(Code));" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("    }" + Environment.NewLine);	
+			Write("}" + Environment.NewLine);	
+
+			manager.EndBlock();
+		}
+    }
+	manager.Process(doMultiFile);	
+#>

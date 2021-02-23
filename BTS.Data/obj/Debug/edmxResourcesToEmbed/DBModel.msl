@@ -1,0 +1,1005 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RiseDBModelStoreContainer" CdmEntityContainer="RiseDBEntities">
+    <EntitySetMapping Name="Contact_WorkPlaces">
+      <EntityTypeMapping TypeName="RiseDBModel.Contact_WorkPlaces">
+        <MappingFragment StoreEntitySet="Contact_WorkPlaces">
+          <ScalarProperty Name="IsProposed" ColumnName="IsProposed" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="ZoneOfMobility" ColumnName="ZoneOfMobility" />
+          <ScalarProperty Name="LOVCode" ColumnName="LOVCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lookup_Banks">
+      <EntityTypeMapping TypeName="RiseDBModel.Lookup_Banks">
+        <MappingFragment StoreEntitySet="Lookup_Banks">
+          <ScalarProperty Name="BankCode" ColumnName="BankCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="BankNameAR" ColumnName="BankNameAR" />
+          <ScalarProperty Name="BankNameEN" ColumnName="BankNameEN" />
+          <ScalarProperty Name="CountryCode" ColumnName="CountryCode" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lookup_Cities">
+      <EntityTypeMapping TypeName="RiseDBModel.Lookup_Cities">
+        <MappingFragment StoreEntitySet="Lookup_Cities">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="CityNameAr" ColumnName="CityNameAr" />
+          <ScalarProperty Name="CityNameEn" ColumnName="CityNameEn" />
+          <ScalarProperty Name="ProvinceCode" ColumnName="ProvinceCode" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lookup_Countries">
+      <EntityTypeMapping TypeName="RiseDBModel.Lookup_Countries">
+        <MappingFragment StoreEntitySet="Lookup_Countries">
+          <ScalarProperty Name="StartBusinessYN" ColumnName="StartBusinessYN" />
+          <ScalarProperty Name="RegionalYN" ColumnName="RegionalYN" />
+          <ScalarProperty Name="KeyInternational" ColumnName="KeyInternational" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="CountryNameAr" ColumnName="CountryNameAr" />
+          <ScalarProperty Name="CountryNameEn" ColumnName="CountryNameEn" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CurrencyISOCode" ColumnName="CurrencyISOCode" />
+          <ScalarProperty Name="ExchangeRateToEGP" ColumnName="ExchangeRateToEGP" />
+          <ScalarProperty Name="CurrencyNameAr" ColumnName="CurrencyNameAr" />
+          <ScalarProperty Name="CurrencyNameEn" ColumnName="CurrencyNameEn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lookup_Expertises">
+      <EntityTypeMapping TypeName="RiseDBModel.Lookup_Expertises">
+        <MappingFragment StoreEntitySet="Lookup_Expertises">
+          <ScalarProperty Name="ExpertiseDescription" ColumnName="ExpertiseDescription" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ExpertiseNameAR" ColumnName="ExpertiseNameAR" />
+          <ScalarProperty Name="ExpertiseNameEN" ColumnName="ExpertiseNameEN" />
+          <ScalarProperty Name="ParentExpertiseCode" ColumnName="ParentExpertiseCode" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lookup_Provinces">
+      <EntityTypeMapping TypeName="RiseDBModel.Lookup_Provinces">
+        <MappingFragment StoreEntitySet="Lookup_Provinces">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ProvinceNameAr" ColumnName="ProvinceNameAr" />
+          <ScalarProperty Name="ProvinceNameEn" ColumnName="ProvinceNameEn" />
+          <ScalarProperty Name="CountryCode" ColumnName="CountryCode" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lookup_RCL">
+      <EntityTypeMapping TypeName="RiseDBModel.Lookup_RCL">
+        <MappingFragment StoreEntitySet="Lookup_RCL">
+          <ScalarProperty Name="YearsOfExperience" ColumnName="YearsOfExperience" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="RCLNameAR" ColumnName="RCLNameAR" />
+          <ScalarProperty Name="RCLNameEN" ColumnName="RCLNameEN" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOVs">
+      <EntityTypeMapping TypeName="RiseDBModel.LOV">
+        <MappingFragment StoreEntitySet="LOV">
+          <ScalarProperty Name="TitleEN" ColumnName="TitleEN" />
+          <ScalarProperty Name="TitleAR" ColumnName="TitleAR" />
+          <ScalarProperty Name="LOVKey" ColumnName="LOVKey" />
+          <ScalarProperty Name="LOVType" ColumnName="LOVType" />
+          <ScalarProperty Name="LOVLineNo" ColumnName="LOVLineNo" />
+          <ScalarProperty Name="DescriptionsAR" ColumnName="DescriptionsAR" />
+          <ScalarProperty Name="DescriptionsEN" ColumnName="DescriptionsEN" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RCC_STS">
+      <EntityTypeMapping TypeName="RiseDBModel.RCC_STS">
+        <MappingFragment StoreEntitySet="RCC_STS">
+          <ScalarProperty Name="WeekNo" ColumnName="WeekNo" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ExpertiseCode" ColumnName="ExpertiseCode" />
+          <ScalarProperty Name="WorkWorkPlacesCode" ColumnName="WorkWorkPlacesCode" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contact_Expertise">
+      <EntityTypeMapping TypeName="RiseDBModel.Contact_Expertise">
+        <MappingFragment StoreEntitySet="Contact_Expertise">
+          <ScalarProperty Name="OldExpertiseRCLCode" ColumnName="OldExpertiseRCLCode" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="EntriyRootExpertise" ColumnName="EntriyRootExpertise" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ExpertiseRCLCode" ColumnName="ExpertiseRCLCode" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contact_Countries">
+      <EntityTypeMapping TypeName="RiseDBModel.Contact_Countries">
+        <MappingFragment StoreEntitySet="Contact_Countries">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsPrimaryCountry" ColumnName="IsPrimaryCountry" />
+          <ScalarProperty Name="CountryCode" ColumnName="CountryCode" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contact_WorkPlacesProposed">
+      <EntityTypeMapping TypeName="RiseDBModel.Contact_WorkPlacesProposed">
+        <MappingFragment StoreEntitySet="Contact_WorkPlacesProposed">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+          <ScalarProperty Name="LOVCode" ColumnName="LOVCode" />
+          <ScalarProperty Name="ZoneOfMobility" ColumnName="ZoneOfMobility" />
+          <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lookup_ExpertiseRCL">
+      <EntityTypeMapping TypeName="RiseDBModel.Lookup_ExpertiseRCL">
+        <MappingFragment StoreEntitySet="Lookup_ExpertiseRCL">
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="RCLCode" ColumnName="RCLCode" />
+          <ScalarProperty Name="ExpertiseCode" ColumnName="ExpertiseCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sync_Flag">
+      <EntityTypeMapping TypeName="RiseDBModel.Sync_Flag">
+        <MappingFragment StoreEntitySet="Sync_Flag">
+          <ScalarProperty Name="Lookup_Version" ColumnName="Lookup_Version" />
+          <ScalarProperty Name="DB_Version" ColumnName="DB_Version" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="RiseDBModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="NationalID" ColumnName="NationalID" />
+          <ScalarProperty Name="Moblie" ColumnName="Moblie" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Book_History">
+      <EntityTypeMapping TypeName="RiseDBModel.Book_History">
+        <MappingFragment StoreEntitySet="Book_History">
+          <ScalarProperty Name="RCC_Latitude" ColumnName="RCC_Latitude" />
+          <ScalarProperty Name="RCC_Longitude" ColumnName="RCC_Longitude" />
+          <ScalarProperty Name="RUC_ZoneOfMobility" ColumnName="RUC_ZoneOfMobility" />
+          <ScalarProperty Name="RCC_ZoneOfMobility" ColumnName="RCC_ZoneOfMobility" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="BookLongitude" ColumnName="BookLongitude" />
+          <ScalarProperty Name="BookLatitude" ColumnName="BookLatitude" />
+          <ScalarProperty Name="BookLocationName" ColumnName="BookLocationName" />
+          <ScalarProperty Name="BookCondition" ColumnName="BookCondition" />
+          <ScalarProperty Name="BookModBy" ColumnName="BookModBy" />
+          <ScalarProperty Name="BookModDate" ColumnName="BookModDate" />
+          <ScalarProperty Name="BookDate" ColumnName="BookDate" />
+          <ScalarProperty Name="BookFeesbeforeDis" ColumnName="BookFeesbeforeDis" />
+          <ScalarProperty Name="BookFeesAfterDis" ColumnName="BookFeesAfterDis" />
+          <ScalarProperty Name="BookFeesPerHr" ColumnName="BookFeesPerHr" />
+          <ScalarProperty Name="BookTo" ColumnName="BookTo" />
+          <ScalarProperty Name="BookFrom" ColumnName="BookFrom" />
+          <ScalarProperty Name="BookDuration" ColumnName="BookDuration" />
+          <ScalarProperty Name="BookStatus" ColumnName="BookStatus" />
+          <ScalarProperty Name="RCCRCL" ColumnName="RCCRCL" />
+          <ScalarProperty Name="RCCExpertise" ColumnName="RCCExpertise" />
+          <ScalarProperty Name="RCCContactCode" ColumnName="RCCContactCode" />
+          <ScalarProperty Name="RUCContactCode" ColumnName="RUCContactCode" />
+          <ScalarProperty Name="PatrentCode" ColumnName="PatrentCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Discounts">
+      <EntityTypeMapping TypeName="RiseDBModel.Discount">
+        <MappingFragment StoreEntitySet="Discount">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DurationInHr" ColumnName="DurationInHr" />
+          <ScalarProperty Name="Percentage" ColumnName="Percentage" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="RiseDBModel.Book">
+        <MappingFragment StoreEntitySet="Book">
+          <ScalarProperty Name="BookConfirmLocationName" ColumnName="BookConfirmLocationName" />
+          <ScalarProperty Name="PackageType" ColumnName="PackageType" />
+          <ScalarProperty Name="RUC_Latitude" ColumnName="RUC_Latitude" />
+          <ScalarProperty Name="RUC_Longitude" ColumnName="RUC_Longitude" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Cancel_Other_Text" ColumnName="Cancel_Other_Text" />
+          <ScalarProperty Name="Cancel_Reason_Code" ColumnName="Cancel_Reason_Code" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="RCC_Latitude" ColumnName="RCC_Latitude" />
+          <ScalarProperty Name="RCC_Longitude" ColumnName="RCC_Longitude" />
+          <ScalarProperty Name="RUC_ZoneOfMobility" ColumnName="RUC_ZoneOfMobility" />
+          <ScalarProperty Name="RCC_ZoneOfMobility" ColumnName="RCC_ZoneOfMobility" />
+          <ScalarProperty Name="BookLongitude" ColumnName="BookLongitude" />
+          <ScalarProperty Name="BookLatitude" ColumnName="BookLatitude" />
+          <ScalarProperty Name="BookLocationName" ColumnName="BookLocationName" />
+          <ScalarProperty Name="BookCondition" ColumnName="BookCondition" />
+          <ScalarProperty Name="BookModBy" ColumnName="BookModBy" />
+          <ScalarProperty Name="BookModDate" ColumnName="BookModDate" />
+          <ScalarProperty Name="BookDate" ColumnName="BookDate" />
+          <ScalarProperty Name="BookFeesbeforeDis" ColumnName="BookFeesbeforeDis" />
+          <ScalarProperty Name="BookFeesAfterDis" ColumnName="BookFeesAfterDis" />
+          <ScalarProperty Name="BookFeesPerHr" ColumnName="BookFeesPerHr" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="BookTo" ColumnName="BookTo" />
+          <ScalarProperty Name="BookFrom" ColumnName="BookFrom" />
+          <ScalarProperty Name="BookDuration" ColumnName="BookDuration" />
+          <ScalarProperty Name="BookStatus" ColumnName="BookStatus" />
+          <ScalarProperty Name="RCCRCL" ColumnName="RCCRCL" />
+          <ScalarProperty Name="RCCExpertise" ColumnName="RCCExpertise" />
+          <ScalarProperty Name="RCCContactCode" ColumnName="RCCContactCode" />
+          <ScalarProperty Name="RUCContactCode" ColumnName="RUCContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bookinglinks">
+      <EntityTypeMapping TypeName="RiseDBModel.Bookinglink">
+        <MappingFragment StoreEntitySet="Bookinglink">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ReferenceNumber" ColumnName="ReferenceNumber" />
+          <ScalarProperty Name="FinsCode" ColumnName="FinsCode" />
+          <ScalarProperty Name="BookingCode" ColumnName="BookingCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Deductions">
+      <EntityTypeMapping TypeName="RiseDBModel.Deduction">
+        <MappingFragment StoreEntitySet="Deduction">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="RiseCommission" ColumnName="RiseCommission" />
+          <ScalarProperty Name="Taxes" ColumnName="Taxes" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotificationDescriptions">
+      <EntityTypeMapping TypeName="RiseDBModel.NotificationDescription">
+        <MappingFragment StoreEntitySet="NotificationDescription">
+          <ScalarProperty Name="NotificationDescriptionAR" ColumnName="NotificationDescriptionAR" />
+          <ScalarProperty Name="NotificationDescriptionEN" ColumnName="NotificationDescriptionEN" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScheduledNotifications">
+      <EntityTypeMapping TypeName="RiseDBModel.ScheduledNotification">
+        <MappingFragment StoreEntitySet="ScheduledNotifications">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsSent" ColumnName="IsSent" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="BookingCode" ColumnName="BookingCode" />
+          <ScalarProperty Name="TargetUserCode" ColumnName="TargetUserCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RVs">
+      <EntityTypeMapping TypeName="RiseDBModel.RV">
+        <MappingFragment StoreEntitySet="RV">
+          <ScalarProperty Name="CurrentRUC_Longtiude" ColumnName="CurrentRUC_Longtiude" />
+          <ScalarProperty Name="CurrentRUC_Latitude" ColumnName="CurrentRUC_Latitude" />
+          <ScalarProperty Name="CurrentRCC_Longtiude" ColumnName="CurrentRCC_Longtiude" />
+          <ScalarProperty Name="CurrentRCC_Latitude" ColumnName="CurrentRCC_Latitude" />
+          <ScalarProperty Name="Closed_To_RCC" ColumnName="Closed_To_RCC" />
+          <ScalarProperty Name="Closed_To_RUC" ColumnName="Closed_To_RUC" />
+          <ScalarProperty Name="RCC_DisputeChoice_LOVCode" ColumnName="RCC_DisputeChoice_LOVCode" />
+          <ScalarProperty Name="RUC_DisputeChoice_LOVCode" ColumnName="RUC_DisputeChoice_LOVCode" />
+          <ScalarProperty Name="Extended_FeesAfterDiscount" ColumnName="Extended_FeesAfterDiscount" />
+          <ScalarProperty Name="Extended_FeesBeforeDiscount" ColumnName="Extended_FeesBeforeDiscount" />
+          <ScalarProperty Name="Extended_FeesPerHour" ColumnName="Extended_FeesPerHour" />
+          <ScalarProperty Name="Extended_NumberOfHours" ColumnName="Extended_NumberOfHours" />
+          <ScalarProperty Name="ExtendedBooking_PaymentLaterOrNow" ColumnName="ExtendedBooking_PaymentLaterOrNow" />
+          <ScalarProperty Name="ExtendedBookingCode" ColumnName="ExtendedBookingCode" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="RV_RejectedBy" ColumnName="RV_RejectedBy" />
+          <ScalarProperty Name="RUC_To_RCC_Rating" ColumnName="RUC_To_RCC_Rating" />
+          <ScalarProperty Name="RCC_To_RUC_Rating" ColumnName="RCC_To_RUC_Rating" />
+          <ScalarProperty Name="ExtendedHourOrMore" ColumnName="ExtendedHourOrMore" />
+          <ScalarProperty Name="Extended10Minutes" ColumnName="Extended10Minutes" />
+          <ScalarProperty Name="Decline_ExtHourOrMore" ColumnName="Decline_ExtHourOrMore" />
+          <ScalarProperty Name="Request_ExtHourOrMore" ColumnName="Request_ExtHourOrMore" />
+          <ScalarProperty Name="Decline_Ext10Minutes" ColumnName="Decline_Ext10Minutes" />
+          <ScalarProperty Name="Request_Ext10Minutes" ColumnName="Request_Ext10Minutes" />
+          <ScalarProperty Name="RCC_LastEmotion" ColumnName="RCC_LastEmotion" />
+          <ScalarProperty Name="RUC_LastEmotion" ColumnName="RUC_LastEmotion" />
+          <ScalarProperty Name="RCC_ReadyToEnd" ColumnName="RCC_ReadyToEnd" />
+          <ScalarProperty Name="RUC_ReadyToEnd" ColumnName="RUC_ReadyToEnd" />
+          <ScalarProperty Name="Actual_EndTime" ColumnName="Actual_EndTime" />
+          <ScalarProperty Name="Actual_StartTime" ColumnName="Actual_StartTime" />
+          <ScalarProperty Name="RCC_Ready" ColumnName="RCC_Ready" />
+          <ScalarProperty Name="RUC_Ready" ColumnName="RUC_Ready" />
+          <ScalarProperty Name="BookingCode" ColumnName="BookingCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PostRV_Questions">
+      <EntityTypeMapping TypeName="RiseDBModel.PostRV_Questions">
+        <MappingFragment StoreEntitySet="PostRV_Questions">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Answer" ColumnName="Answer" />
+          <ScalarProperty Name="LOV_Code" ColumnName="LOV_Code" />
+          <ScalarProperty Name="Contact_Code" ColumnName="Contact_Code" />
+          <ScalarProperty Name="Contact_Role" ColumnName="Contact_Role" />
+          <ScalarProperty Name="RV_Code" ColumnName="RV_Code" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suspensions">
+      <EntityTypeMapping TypeName="RiseDBModel.Suspension">
+        <MappingFragment StoreEntitySet="Suspension">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="TotalCount" ColumnName="TotalCount" />
+          <ScalarProperty Name="RejectionCount" ColumnName="RejectionCount" />
+          <ScalarProperty Name="SuspensionType" ColumnName="SuspensionType" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contact_Report">
+      <EntityTypeMapping TypeName="RiseDBModel.Contact_Report">
+        <MappingFragment StoreEntitySet="Contact_Report">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ContactRoll" ColumnName="ContactRoll" />
+          <ScalarProperty Name="LOV_Code" ColumnName="LOV_Code" />
+          <ScalarProperty Name="ToContactCode" ColumnName="ToContactCode" />
+          <ScalarProperty Name="FromContctCode" ColumnName="FromContctCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notifications">
+      <EntityTypeMapping TypeName="RiseDBModel.Notification">
+        <MappingFragment StoreEntitySet="Notifications">
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="IsSent" ColumnName="IsSent" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="NotificationDescriptionAR" ColumnName="NotificationDescriptionAR" />
+          <ScalarProperty Name="NotificationDescriptionEN" ColumnName="NotificationDescriptionEN" />
+          <ScalarProperty Name="NotificationModBy" ColumnName="NotificationModBy" />
+          <ScalarProperty Name="NotificationDate" ColumnName="NotificationDate" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="BookingCode" ColumnName="BookingCode" />
+          <ScalarProperty Name="NotificationStatusCode" ColumnName="NotificationStatusCode" />
+          <ScalarProperty Name="SendingUser" ColumnName="SendingUser" />
+          <ScalarProperty Name="ContactRole" ColumnName="ContactRole" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomNotifications">
+      <EntityTypeMapping TypeName="RiseDBModel.CustomNotification">
+        <MappingFragment StoreEntitySet="CustomNotification">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="TargetUsers" ColumnName="TargetUsers" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lookup_BankBranch">
+      <EntityTypeMapping TypeName="RiseDBModel.Lookup_BankBranch">
+        <MappingFragment StoreEntitySet="Lookup_BankBranch">
+          <ScalarProperty Name="BranchCode" ColumnName="BranchCode" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="BankCode" ColumnName="BankCode" />
+          <ScalarProperty Name="BankBranchNameEN" ColumnName="BankBranchNameEN" />
+          <ScalarProperty Name="BankBranchNameAR" ColumnName="BankBranchNameAR" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DuePayments">
+      <EntityTypeMapping TypeName="RiseDBModel.DuePayment">
+        <MappingFragment StoreEntitySet="DuePayments">
+          <ScalarProperty Name="IsSent" ColumnName="IsSent" />
+          <ScalarProperty Name="GeneratingDate" ColumnName="GeneratingDate" />
+          <ScalarProperty Name="ReportName" ColumnName="ReportName" />
+          <ScalarProperty Name="BankBranchCode" ColumnName="BankBranchCode" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="BookingCode" ColumnName="BookingCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contacts">
+      <EntityTypeMapping TypeName="RiseDBModel.Contact">
+        <MappingFragment StoreEntitySet="Contacts">
+          <ScalarProperty Name="NoSpeakArabicYN" ColumnName="NoSpeakArabicYN" />
+          <ScalarProperty Name="CounterSpecialExpertise" ColumnName="CounterSpecialExpertise" />
+          <ScalarProperty Name="CounterGPP" ColumnName="CounterGPP" />
+          <ScalarProperty Name="CounterDCH" ColumnName="CounterDCH" />
+          <ScalarProperty Name="SpecialExpertiseYN" ColumnName="SpecialExpertiseYN" />
+          <ScalarProperty Name="DCHYN" ColumnName="DCHYN" />
+          <ScalarProperty Name="LanguageCodes" ColumnName="LanguageCodes" />
+          <ScalarProperty Name="InternationalCountriesCodes" ColumnName="InternationalCountriesCodes" />
+          <ScalarProperty Name="RegionalCountriesCodes" ColumnName="RegionalCountriesCodes" />
+          <ScalarProperty Name="SpeakArabicYN" ColumnName="SpeakArabicYN" />
+          <ScalarProperty Name="GoogleMapYN" ColumnName="GoogleMapYN" />
+          <ScalarProperty Name="RiseCertifyYN" ColumnName="RiseCertifyYN" />
+          <ScalarProperty Name="LanguageEnglishName" ColumnName="LanguageEnglishName" />
+          <ScalarProperty Name="LanguageArabicName" ColumnName="LanguageArabicName" />
+          <ScalarProperty Name="InternationalCountriesEnglishName" ColumnName="InternationalCountriesEnglishName" />
+          <ScalarProperty Name="InternationalCountriesArabicName" ColumnName="InternationalCountriesArabicName" />
+          <ScalarProperty Name="RegionalCountriesEnglishName" ColumnName="RegionalCountriesEnglishName" />
+          <ScalarProperty Name="RegionalCountriesArabicName" ColumnName="RegionalCountriesArabicName" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="IsValidPhoneNumberYN" ColumnName="IsValidPhoneNumberYN" />
+          <ScalarProperty Name="RV_Number" ColumnName="RV_Number" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="GraduationDate" ColumnName="GraduationDate" />
+          <ScalarProperty Name="CountRootExpertise" ColumnName="CountRootExpertise" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="ShowProfilePhoto" ColumnName="ShowProfilePhoto" />
+          <ScalarProperty Name="FCM_Token" ColumnName="FCM_Token" />
+          <ScalarProperty Name="BankAccountName" ColumnName="BankAccountName" />
+          <ScalarProperty Name="BankBranchCode" ColumnName="BankBranchCode" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="OTPVerify" ColumnName="OTPVerify" />
+          <ScalarProperty Name="OTPCode" ColumnName="OTPCode" />
+          <ScalarProperty Name="RUC" ColumnName="RUC" />
+          <ScalarProperty Name="RCC" ColumnName="RCC" />
+          <ScalarProperty Name="IsSuspended" ColumnName="IsSuspended" />
+          <ScalarProperty Name="PhotoURL" ColumnName="PhotoURL" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="NationalID" ColumnName="NationalID" />
+          <ScalarProperty Name="ID_Type" ColumnName="ID_Type" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="CompanyAddress" ColumnName="CompanyAddress" />
+          <ScalarProperty Name="CompanyArea" ColumnName="CompanyArea" />
+          <ScalarProperty Name="CompanyCityCode" ColumnName="CompanyCityCode" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="BankAccountNo" ColumnName="BankAccountNo" />
+          <ScalarProperty Name="BankCode" ColumnName="BankCode" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="PhoneNo" ColumnName="PhoneNo" />
+          <ScalarProperty Name="MoblieNo" ColumnName="MoblieNo" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ContactKeyEmail" ColumnName="ContactKeyEmail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contact_CV">
+      <EntityTypeMapping TypeName="RiseDBModel.Contact_CV">
+        <MappingFragment StoreEntitySet="Contact_CV">
+          <ScalarProperty Name="SpecialExpertiseInfo" ColumnName="SpecialExpertiseInfo" />
+          <ScalarProperty Name="LanguageEnglishName" ColumnName="LanguageEnglishName" />
+          <ScalarProperty Name="LanguageArabicName" ColumnName="LanguageArabicName" />
+          <ScalarProperty Name="InternationalCountriesEnglishName" ColumnName="InternationalCountriesEnglishName" />
+          <ScalarProperty Name="InternationalCountriesArabicName" ColumnName="InternationalCountriesArabicName" />
+          <ScalarProperty Name="RegionalCountriesEnglishName" ColumnName="RegionalCountriesEnglishName" />
+          <ScalarProperty Name="RegionalCountriesArabicName" ColumnName="RegionalCountriesArabicName" />
+          <ScalarProperty Name="RCCYN" ColumnName="RCCYN" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Field_10" ColumnName="Field_10" />
+          <ScalarProperty Name="Field_9" ColumnName="Field_9" />
+          <ScalarProperty Name="Field_8" ColumnName="Field_8" />
+          <ScalarProperty Name="Field_7" ColumnName="Field_7" />
+          <ScalarProperty Name="Field_6" ColumnName="Field_6" />
+          <ScalarProperty Name="Field_5" ColumnName="Field_5" />
+          <ScalarProperty Name="Field_4" ColumnName="Field_4" />
+          <ScalarProperty Name="Field_3" ColumnName="Field_3" />
+          <ScalarProperty Name="Field_2" ColumnName="Field_2" />
+          <ScalarProperty Name="Field_1" ColumnName="Field_1" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lookup_FileTypes">
+      <EntityTypeMapping TypeName="RiseDBModel.Lookup_FileTypes">
+        <MappingFragment StoreEntitySet="Lookup_FileTypes">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="FileTypeNameEN" ColumnName="FileTypeNameEN" />
+          <ScalarProperty Name="FileTypeNameAR" ColumnName="FileTypeNameAR" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Groups">
+      <EntityTypeMapping TypeName="RiseDBModel.Group">
+        <MappingFragment StoreEntitySet="Groups">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="GroupsNameAR" ColumnName="GroupsNameAR" />
+          <ScalarProperty Name="GroupsNameEN" ColumnName="GroupsNameEN" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GroupPermessions">
+      <EntityTypeMapping TypeName="RiseDBModel.GroupPermession">
+        <MappingFragment StoreEntitySet="GroupPermessions">
+          <ScalarProperty Name="URLPageName" ColumnName="URLPageName" />
+          <ScalarProperty Name="EditYN" ColumnName="EditYN" />
+          <ScalarProperty Name="DeleteYN" ColumnName="DeleteYN" />
+          <ScalarProperty Name="SaveYN" ColumnName="SaveYN" />
+          <ScalarProperty Name="ViewYN" ColumnName="ViewYN" />
+          <ScalarProperty Name="PageName" ColumnName="PageName" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FielsUploads">
+      <EntityTypeMapping TypeName="RiseDBModel.FielsUpload">
+        <MappingFragment StoreEntitySet="FielsUpload">
+          <ScalarProperty Name="ApproveSpecialYN" ColumnName="ApproveSpecialYN" />
+          <ScalarProperty Name="SpecialExpertiseYN" ColumnName="SpecialExpertiseYN" />
+          <ScalarProperty Name="SpecialExpertiseSecondYN" ColumnName="SpecialExpertiseSecondYN" />
+          <ScalarProperty Name="SpecialExpertiseFirstYN" ColumnName="SpecialExpertiseFirstYN" />
+          <ScalarProperty Name="OnlineFormYN" ColumnName="OnlineFormYN" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="CloseYN" ColumnName="CloseYN" />
+          <ScalarProperty Name="InCompleteYN" ColumnName="InCompleteYN" />
+          <ScalarProperty Name="CompleteYN" ColumnName="CompleteYN" />
+          <ScalarProperty Name="GloabalYN" ColumnName="GloabalYN" />
+          <ScalarProperty Name="InternationalYN" ColumnName="InternationalYN" />
+          <ScalarProperty Name="RegionalYN" ColumnName="RegionalYN" />
+          <ScalarProperty Name="StatusCode" ColumnName="StatusCode" />
+          <ScalarProperty Name="CheckerDate" ColumnName="CheckerDate" />
+          <ScalarProperty Name="CheckerName" ColumnName="CheckerName" />
+          <ScalarProperty Name="UploadFileDate" ColumnName="UploadFileDate" />
+          <ScalarProperty Name="FileSizeBybyte" ColumnName="FileSizeBybyte" />
+          <ScalarProperty Name="ApproveYN" ColumnName="ApproveYN" />
+          <ScalarProperty Name="FreezeYN" ColumnName="FreezeYN" />
+          <ScalarProperty Name="BuyCheckYN" ColumnName="BuyCheckYN" />
+          <ScalarProperty Name="SecondCheckYN" ColumnName="SecondCheckYN" />
+          <ScalarProperty Name="PrimaryCheckYN" ColumnName="PrimaryCheckYN" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="PathFileServer" ColumnName="PathFileServer" />
+          <ScalarProperty Name="PathFileLocal" ColumnName="PathFileLocal" />
+          <ScalarProperty Name="FileTypeCode" ColumnName="FileTypeCode" />
+          <ScalarProperty Name="FolderName" ColumnName="FolderName" />
+          <ScalarProperty Name="FileSize" ColumnName="FileSize" />
+          <ScalarProperty Name="FileID" ColumnName="FileID" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lookup_Status">
+      <EntityTypeMapping TypeName="RiseDBModel.Lookup_Status">
+        <MappingFragment StoreEntitySet="Lookup_Status">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="StatusEnName" ColumnName="StatusEnName" />
+          <ScalarProperty Name="StatusArName" ColumnName="StatusArName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log_FielsUpload">
+      <EntityTypeMapping TypeName="RiseDBModel.Log_FielsUpload">
+        <MappingFragment StoreEntitySet="Log_FielsUpload">
+          <ScalarProperty Name="FileTypeCode" ColumnName="FileTypeCode" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="LogDate" ColumnName="LogDate" />
+          <ScalarProperty Name="CheckerName" ColumnName="CheckerName" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetAll_FielsUpload_ByGroupByUserID" FunctionName="RiseDBModel.Store.GetAll_FielsUpload_ByGroupByUserID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="RiseDBModel.GetAll_FielsUpload_ByGroupByUserID_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="CheckerName" ColumnName="CheckerName" />
+          <ScalarProperty Name="CheckerDate" ColumnName="CheckerDate" />
+          <ScalarProperty Name="UploadFileDate" ColumnName="UploadFileDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Update_ApproveYN" FunctionName="RiseDBModel.Store.Update_ApproveYN" />
+    <FunctionImportMapping FunctionImportName="Update_FreezeYN" FunctionName="RiseDBModel.Store.Update_FreezeYN" />
+    <FunctionImportMapping FunctionImportName="Update_PrimaryCheck" FunctionName="RiseDBModel.Store.Update_PrimaryCheck" />
+    <FunctionImportMapping FunctionImportName="Update_SecondCheckYN" FunctionName="RiseDBModel.Store.Update_SecondCheckYN" />
+    <FunctionImportMapping FunctionImportName="CallWebService" FunctionName="RiseDBModel.Store.CallWebService" />
+    <FunctionImportMapping FunctionImportName="GetContact_by_ParentExpCode" FunctionName="RiseDBModel.Store.GetContact_by_ParentExpCode">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="RiseDBModel.GetContact_by_ParentExpCode_Result">
+          <ScalarProperty Name="ContactKeyEmail" ColumnName="ContactKeyEmail" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MoblieNo" ColumnName="MoblieNo" />
+          <ScalarProperty Name="PhoneNo" ColumnName="PhoneNo" />
+          <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="BankCode" ColumnName="BankCode" />
+          <ScalarProperty Name="BankAccountNo" ColumnName="BankAccountNo" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyCityCode" ColumnName="CompanyCityCode" />
+          <ScalarProperty Name="CompanyArea" ColumnName="CompanyArea" />
+          <ScalarProperty Name="CompanyAddress" ColumnName="CompanyAddress" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="ID_Type" ColumnName="ID_Type" />
+          <ScalarProperty Name="NationalID" ColumnName="NationalID" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="PhotoURL" ColumnName="PhotoURL" />
+          <ScalarProperty Name="IsSuspended" ColumnName="IsSuspended" />
+          <ScalarProperty Name="RCC" ColumnName="RCC" />
+          <ScalarProperty Name="RUC" ColumnName="RUC" />
+          <ScalarProperty Name="OTPCode" ColumnName="OTPCode" />
+          <ScalarProperty Name="OTPVerify" ColumnName="OTPVerify" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="BankBranchCode" ColumnName="BankBranchCode" />
+          <ScalarProperty Name="BankAccountName" ColumnName="BankAccountName" />
+          <ScalarProperty Name="FCM_Token" ColumnName="FCM_Token" />
+          <ScalarProperty Name="ShowProfilePhoto" ColumnName="ShowProfilePhoto" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="CountRootExpertise" ColumnName="CountRootExpertise" />
+          <ScalarProperty Name="GraduationDate" ColumnName="GraduationDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="FCM_Token1" ColumnName="FCM_Token1" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="RV_Number" ColumnName="RV_Number" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="Lookup_Language">
+      <EntityTypeMapping TypeName="RiseDBModel.Lookup_Language">
+        <MappingFragment StoreEntitySet="Lookup_Language">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="LanguageEnName" ColumnName="LanguageEnName" />
+          <ScalarProperty Name="LanguageAraName" ColumnName="LanguageAraName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RiseStoredPlaces">
+      <EntityTypeMapping TypeName="RiseDBModel.RiseStoredPlace">
+        <MappingFragment StoreEntitySet="RiseStoredPlaces">
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="LocationAdress" ColumnName="LocationAdress" />
+          <ScalarProperty Name="Latidiude" ColumnName="Latidiude" />
+          <ScalarProperty Name="Longtiude" ColumnName="Longtiude" />
+          <ScalarProperty Name="Distance" ColumnName="Distance" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OnlineForms">
+      <EntityTypeMapping TypeName="RiseDBModel.OnlineForm">
+        <MappingFragment StoreEntitySet="OnlineForm">
+          <ScalarProperty Name="Languages" ColumnName="Languages" />
+          <ScalarProperty Name="Qualifications" ColumnName="Qualifications" />
+          <ScalarProperty Name="OtherInfo" ColumnName="OtherInfo" />
+          <ScalarProperty Name="ScientificSocieties" ColumnName="ScientificSocieties" />
+          <ScalarProperty Name="Sports" ColumnName="Sports" />
+          <ScalarProperty Name="Clups" ColumnName="Clups" />
+          <ScalarProperty Name="Unions" ColumnName="Unions" />
+          <ScalarProperty Name="Training" ColumnName="Training" />
+          <ScalarProperty Name="Skills" ColumnName="Skills" />
+          <ScalarProperty Name="Competencies" ColumnName="Competencies" />
+          <ScalarProperty Name="Government" ColumnName="Government" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="District" ColumnName="District" />
+          <ScalarProperty Name="PostGraduated" ColumnName="PostGraduated" />
+          <ScalarProperty Name="University" ColumnName="University" />
+          <ScalarProperty Name="UniversitySchool" ColumnName="UniversitySchool" />
+          <ScalarProperty Name="HighSchool" ColumnName="HighSchool" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Field3" ColumnName="Field3" />
+          <ScalarProperty Name="Field2" ColumnName="Field2" />
+          <ScalarProperty Name="Field1" ColumnName="Field1" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Packages">
+      <EntityTypeMapping TypeName="RiseDBModel.Package">
+        <MappingFragment StoreEntitySet="Package">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="PackageName" ColumnName="PackageName" />
+          <ScalarProperty Name="PackageType" ColumnName="PackageType" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FinsStatements">
+      <EntityTypeMapping TypeName="RiseDBModel.FinsStatement">
+        <MappingFragment StoreEntitySet="FinsStatement">
+          <ScalarProperty Name="TransactionTypes" ColumnName="TransactionTypes" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="StatusDescription" ColumnName="StatusDescription" />
+          <ScalarProperty Name="StatusCode" ColumnName="StatusCode" />
+          <ScalarProperty Name="CardCharge_StatusDescription" ColumnName="CardCharge_StatusDescription" />
+          <ScalarProperty Name="CardCharge_StatusCode" ColumnName="CardCharge_StatusCode" />
+          <ScalarProperty Name="ReferenceNumber" ColumnName="ReferenceNumber" />
+          <ScalarProperty Name="Signature" ColumnName="Signature" />
+          <ScalarProperty Name="ChargeItems_Description" ColumnName="ChargeItems_Description" />
+          <ScalarProperty Name="ChargeItems_Quantity" ColumnName="ChargeItems_Quantity" />
+          <ScalarProperty Name="ChargeItems_Price" ColumnName="ChargeItems_Price" />
+          <ScalarProperty Name="ChargeItems_ItemID" ColumnName="ChargeItems_ItemID" />
+          <ScalarProperty Name="PaymentExpiry" ColumnName="PaymentExpiry" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CurrencyCode" ColumnName="CurrencyCode" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="CustomerEmail" ColumnName="CustomerEmail" />
+          <ScalarProperty Name="CustomerMobile" ColumnName="CustomerMobile" />
+          <ScalarProperty Name="CardLast4digits" ColumnName="CardLast4digits" />
+          <ScalarProperty Name="CardToken" ColumnName="CardToken" />
+          <ScalarProperty Name="CustomerProfileId" ColumnName="CustomerProfileId" />
+          <ScalarProperty Name="MerchantRefNum" ColumnName="MerchantRefNum" />
+          <ScalarProperty Name="MerchantCode" ColumnName="MerchantCode" />
+          <ScalarProperty Name="BankAccountNo" ColumnName="BankAccountNo" />
+          <ScalarProperty Name="BankAccountName" ColumnName="BankAccountName" />
+          <ScalarProperty Name="BankBranch" ColumnName="BankBranch" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="RiseCommission" ColumnName="RiseCommission" />
+          <ScalarProperty Name="Taxes" ColumnName="Taxes" />
+          <ScalarProperty Name="Cr_Dr" ColumnName="Cr_Dr" />
+          <ScalarProperty Name="PaymentType" ColumnName="PaymentType" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="UserCode" ColumnName="UserCode" />
+          <ScalarProperty Name="TransactionCode" ColumnName="TransactionCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpecialExpertises">
+      <EntityTypeMapping TypeName="RiseDBModel.SpecialExpertise">
+        <MappingFragment StoreEntitySet="SpecialExpertise">
+          <ScalarProperty Name="Row5ExpertiseLevel4" ColumnName="Row5ExpertiseLevel4" />
+          <ScalarProperty Name="Row5ExpertiseLevel3" ColumnName="Row5ExpertiseLevel3" />
+          <ScalarProperty Name="Row5ExpertiseLevel2" ColumnName="Row5ExpertiseLevel2" />
+          <ScalarProperty Name="Row5ExpertiseLevel1" ColumnName="Row5ExpertiseLevel1" />
+          <ScalarProperty Name="Cost5" ColumnName="Cost5" />
+          <ScalarProperty Name="Row4ExpertiseLevel4" ColumnName="Row4ExpertiseLevel4" />
+          <ScalarProperty Name="Row4ExpertiseLevel3" ColumnName="Row4ExpertiseLevel3" />
+          <ScalarProperty Name="Row4ExpertiseLevel2" ColumnName="Row4ExpertiseLevel2" />
+          <ScalarProperty Name="Row4ExpertiseLevel1" ColumnName="Row4ExpertiseLevel1" />
+          <ScalarProperty Name="Cost4" ColumnName="Cost4" />
+          <ScalarProperty Name="Row3ExpertiseLevel4" ColumnName="Row3ExpertiseLevel4" />
+          <ScalarProperty Name="Row3ExpertiseLevel3" ColumnName="Row3ExpertiseLevel3" />
+          <ScalarProperty Name="Row3ExpertiseLevel2" ColumnName="Row3ExpertiseLevel2" />
+          <ScalarProperty Name="Row3ExpertiseLevel1" ColumnName="Row3ExpertiseLevel1" />
+          <ScalarProperty Name="Cost3" ColumnName="Cost3" />
+          <ScalarProperty Name="Row2ExpertiseLevel4" ColumnName="Row2ExpertiseLevel4" />
+          <ScalarProperty Name="Row2ExpertiseLevel3" ColumnName="Row2ExpertiseLevel3" />
+          <ScalarProperty Name="Row2ExpertiseLevel2" ColumnName="Row2ExpertiseLevel2" />
+          <ScalarProperty Name="Row2ExpertiseLevel1" ColumnName="Row2ExpertiseLevel1" />
+          <ScalarProperty Name="Cost2" ColumnName="Cost2" />
+          <ScalarProperty Name="ExpertiseLevel4" ColumnName="ExpertiseLevel4" />
+          <ScalarProperty Name="ExpertiseLevel3" ColumnName="ExpertiseLevel3" />
+          <ScalarProperty Name="ExpertiseLevel2" ColumnName="ExpertiseLevel2" />
+          <ScalarProperty Name="ExpertiseLevel1" ColumnName="ExpertiseLevel1" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="Field2" ColumnName="Field2" />
+          <ScalarProperty Name="Field1" ColumnName="Field1" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionPayments">
+      <EntityTypeMapping TypeName="RiseDBModel.TransactionPayment">
+        <MappingFragment StoreEntitySet="TransactionPayment">
+          <ScalarProperty Name="TransactionStatus" ColumnName="TransactionStatus" />
+          <ScalarProperty Name="TransactionTypes" ColumnName="TransactionTypes" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contact_MeetingPoints">
+      <EntityTypeMapping TypeName="RiseDBModel.Contact_MeetingPoints">
+        <MappingFragment StoreEntitySet="Contact_MeetingPoints">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OnlineFormJops">
+      <EntityTypeMapping TypeName="RiseDBModel.OnlineFormJop">
+        <MappingFragment StoreEntitySet="OnlineFormJops">
+          <ScalarProperty Name="Achievment" ColumnName="Achievment" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FeaturedExpertises">
+      <EntityTypeMapping TypeName="RiseDBModel.FeaturedExpertise">
+        <MappingFragment StoreEntitySet="FeaturedExpertise">
+          <ScalarProperty Name="RCLCode" ColumnName="RCLCode" />
+          <ScalarProperty Name="ExpertiseLevel5" ColumnName="ExpertiseLevel5" />
+          <ScalarProperty Name="ExpertiseLevel4" ColumnName="ExpertiseLevel4" />
+          <ScalarProperty Name="ExpertiseLevel3" ColumnName="ExpertiseLevel3" />
+          <ScalarProperty Name="ExpertiseLevel2" ColumnName="ExpertiseLevel2" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="SubmitYN" ColumnName="SubmitYN" />
+          <ScalarProperty Name="ExpertiseLevel1" ColumnName="ExpertiseLevel1" />
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="Others" ColumnName="Others" />
+          <ScalarProperty Name="SpecialRecogintion" ColumnName="SpecialRecogintion" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="FoundOnline" ColumnName="FoundOnline" />
+          <ScalarProperty Name="PublicPerson" ColumnName="PublicPerson" />
+          <ScalarProperty Name="LevelOfExpertise" ColumnName="LevelOfExpertise" />
+          <ScalarProperty Name="DurationOfExpertise" ColumnName="DurationOfExpertise" />
+          <ScalarProperty Name="TypeOfExpertise" ColumnName="TypeOfExpertise" />
+          <ScalarProperty Name="Relations" ColumnName="Relations" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpertiseSuggestions">
+      <EntityTypeMapping TypeName="RiseDBModel.ExpertiseSuggestion">
+        <MappingFragment StoreEntitySet="ExpertiseSuggestion">
+          <ScalarProperty Name="MonthlySalary" ColumnName="MonthlySalary" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="InsertYN" ColumnName="InsertYN" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Discreption" ColumnName="Discreption" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lookup_Help">
+      <EntityTypeMapping TypeName="RiseDBModel.Lookup_Help">
+        <MappingFragment StoreEntitySet="Lookup_Help">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="AddDescriptionYN" ColumnName="AddDescriptionYN" />
+          <ScalarProperty Name="DescriptionsEN" ColumnName="DescriptionsEN" />
+          <ScalarProperty Name="DescriptionsAR" ColumnName="DescriptionsAR" />
+          <ScalarProperty Name="ParentHelpCode" ColumnName="ParentHelpCode" />
+          <ScalarProperty Name="HelpTitleNameEN" ColumnName="HelpTitleNameEN" />
+          <ScalarProperty Name="HelpTitleNameAR" ColumnName="HelpTitleNameAR" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PackageInfoes">
+      <EntityTypeMapping TypeName="RiseDBModel.PackageInfo">
+        <MappingFragment StoreEntitySet="PackageInfo">
+          <ScalarProperty Name="PackageType" ColumnName="PackageType" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="field1" ColumnName="field1" />
+          <ScalarProperty Name="DescriptionEN" ColumnName="DescriptionEN" />
+          <ScalarProperty Name="DescriptionAR" ColumnName="DescriptionAR" />
+          <ScalarProperty Name="Link2" ColumnName="Link2" />
+          <ScalarProperty Name="Link1" ColumnName="Link1" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="alternativeTypes">
+      <EntityTypeMapping TypeName="RiseDBModel.alternativeType">
+        <MappingFragment StoreEntitySet="alternativeTypes">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="alternativeNameEn" ColumnName="alternativeNameEn" />
+          <ScalarProperty Name="alternativeNameAr" ColumnName="alternativeNameAr" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="alternativeContacts">
+      <EntityTypeMapping TypeName="RiseDBModel.alternativeContact">
+        <MappingFragment StoreEntitySet="alternativeContacts">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="alternativeName" ColumnName="alternativeName" />
+          <ScalarProperty Name="alternativeType" ColumnName="alternativeType" />
+          <ScalarProperty Name="ContactKeyEmail" ColumnName="ContactKeyEmail" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FeaturedExpertiseLogs">
+      <EntityTypeMapping TypeName="RiseDBModel.FeaturedExpertiseLog">
+        <MappingFragment StoreEntitySet="FeaturedExpertiseLog">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="RCLCode" ColumnName="RCLCode" />
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="SpecialRecogination" ColumnName="SpecialRecogination" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="FoundOnline" ColumnName="FoundOnline" />
+          <ScalarProperty Name="PublicPerson" ColumnName="PublicPerson" />
+          <ScalarProperty Name="LevelOfExpertise" ColumnName="LevelOfExpertise" />
+          <ScalarProperty Name="DurationOfExpertise" ColumnName="DurationOfExpertise" />
+          <ScalarProperty Name="TypeOfExpertise" ColumnName="TypeOfExpertise" />
+          <ScalarProperty Name="Relations" ColumnName="Relations" />
+          <ScalarProperty Name="ContactCode" ColumnName="ContactCode" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,979 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RiseDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RUCContactCode" Type="int" />
+    <Property Name="RCCContactCode" Type="int" />
+    <Property Name="RCCExpertise" Type="int" />
+    <Property Name="RCCRCL" Type="int" />
+    <Property Name="BookStatus" Type="nchar" MaxLength="100" />
+    <Property Name="BookDuration" Type="int" />
+    <Property Name="BookFrom" Type="date" />
+    <Property Name="BookTo" Type="date" />
+    <Property Name="StartTime" Type="int" />
+    <Property Name="EndTime" Type="int" />
+    <Property Name="BookFeesPerHr" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="BookFeesAfterDis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="BookFeesbeforeDis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="BookDate" Type="datetime" />
+    <Property Name="BookModDate" Type="date" />
+    <Property Name="BookModBy" Type="int" />
+    <Property Name="BookCondition" Type="nvarchar(max)" />
+    <Property Name="BookLocationName" Type="nchar" MaxLength="255" />
+    <Property Name="BookLatitude" Type="nchar" MaxLength="255" />
+    <Property Name="BookLongitude" Type="nchar" MaxLength="255" />
+    <Property Name="RCC_ZoneOfMobility" Type="int" />
+    <Property Name="RUC_ZoneOfMobility" Type="int" />
+    <Property Name="RCC_Longitude" Type="nchar" MaxLength="255" />
+    <Property Name="RCC_Latitude" Type="nchar" MaxLength="255" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="Cancel_Reason_Code" Type="int" />
+    <Property Name="Cancel_Other_Text" Type="nvarchar" MaxLength="255" />
+    <Property Name="Address" Type="nvarchar" MaxLength="255" />
+    <Property Name="RUC_Longitude" Type="nchar" MaxLength="255" />
+    <Property Name="RUC_Latitude" Type="nchar" MaxLength="255" />
+    <Property Name="PackageType" Type="nvarchar" MaxLength="50" />
+    <Property Name="BookConfirmLocationName" Type="nchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Book_History">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PatrentCode" Type="int" />
+    <Property Name="RUCContactCode" Type="int" />
+    <Property Name="RCCContactCode" Type="int" />
+    <Property Name="RCCExpertise" Type="int" />
+    <Property Name="RCCRCL" Type="int" />
+    <Property Name="BookStatus" Type="nchar" MaxLength="100" />
+    <Property Name="BookDuration" Type="int" />
+    <Property Name="BookFrom" Type="date" />
+    <Property Name="BookTo" Type="date" />
+    <Property Name="StartTime" Type="int" />
+    <Property Name="EndTime" Type="int" />
+    <Property Name="BookFeesPerHr" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="BookFeesAfterDis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="BookFeesbeforeDis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="BookDate" Type="date" />
+    <Property Name="BookModDate" Type="date" />
+    <Property Name="BookModBy" Type="int" />
+    <Property Name="BookCondition" Type="varchar" MaxLength="500" />
+    <Property Name="BookLocationName" Type="nchar" MaxLength="255" />
+    <Property Name="BookLatitude" Type="nchar" MaxLength="255" />
+    <Property Name="BookLongitude" Type="nchar" MaxLength="255" />
+    <Property Name="RCC_ZoneOfMobility" Type="int" />
+    <Property Name="RUC_ZoneOfMobility" Type="int" />
+    <Property Name="RCC_Longitude" Type="nchar" MaxLength="255" />
+    <Property Name="RCC_Latitude" Type="nchar" MaxLength="255" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Bookinglink">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BookingCode" Type="int" />
+    <Property Name="FinsCode" Type="int" />
+    <Property Name="ReferenceNumber" Type="nvarchar" MaxLength="255" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Contact_Countries">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" Nullable="false" />
+    <Property Name="CountryCode" Type="int" Nullable="false" />
+    <Property Name="IsPrimaryCountry" Type="bit" Nullable="false" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Contact_CV">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" Nullable="false" />
+    <Property Name="Field_1" Type="nvarchar" MaxLength="50" />
+    <Property Name="Field_2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Field_3" Type="nvarchar" MaxLength="50" />
+    <Property Name="Field_4" Type="nvarchar" MaxLength="50" />
+    <Property Name="Field_5" Type="nvarchar" MaxLength="50" />
+    <Property Name="Field_6" Type="nvarchar" MaxLength="50" />
+    <Property Name="Field_7" Type="nvarchar" MaxLength="50" />
+    <Property Name="Field_8" Type="nvarchar" MaxLength="50" />
+    <Property Name="Field_9" Type="nvarchar" MaxLength="50" />
+    <Property Name="Field_10" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="RCCYN" Type="bit" />
+    <Property Name="RegionalCountriesArabicName" Type="nvarchar(max)" />
+    <Property Name="RegionalCountriesEnglishName" Type="nvarchar(max)" />
+    <Property Name="InternationalCountriesArabicName" Type="nvarchar(max)" />
+    <Property Name="InternationalCountriesEnglishName" Type="nvarchar(max)" />
+    <Property Name="LanguageArabicName" Type="nvarchar(max)" />
+    <Property Name="LanguageEnglishName" Type="nvarchar(max)" />
+    <Property Name="SpecialExpertiseInfo" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Contact_Expertise">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" Nullable="false" />
+    <Property Name="ExpertiseRCLCode" Type="int" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="EntriyRootExpertise" Type="int" />
+    <Property Name="Cost" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="OldExpertiseRCLCode" Type="int" />
+  </EntityType>
+  <EntityType Name="Contact_WorkPlaces">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" />
+    <Property Name="Latitude" Type="float" />
+    <Property Name="Longitude" Type="float" />
+    <Property Name="Address" Type="nvarchar" MaxLength="255" />
+    <Property Name="CityCode" Type="int" Nullable="false" />
+    <Property Name="ZoneOfMobility" Type="int" />
+    <Property Name="LOVCode" Type="int" />
+    <Property Name="LocationName" Type="nvarchar" MaxLength="255" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="IsProposed" Type="bit" />
+  </EntityType>
+  <EntityType Name="Contact_WorkPlacesProposed">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" />
+    <Property Name="Longitude" Type="float" />
+    <Property Name="Latitude" Type="float" />
+    <Property Name="Address" Type="nvarchar" MaxLength="255" />
+    <Property Name="CityCode" Type="int" Nullable="false" />
+    <Property Name="ZoneOfMobility" Type="int" />
+    <Property Name="LOVCode" Type="int" />
+    <Property Name="LocationName" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Contacts">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="ContactKeyEmail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="MoblieNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhoneNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="CityCode" Type="int" />
+    <Property Name="Area" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="255" />
+    <Property Name="BankCode" Type="int" />
+    <Property Name="BankAccountNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CompanyCityCode" Type="int" />
+    <Property Name="CompanyArea" Type="nvarchar" MaxLength="50" />
+    <Property Name="CompanyAddress" Type="nvarchar" MaxLength="255" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+    <Property Name="ID_Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="NationalID" Type="nvarchar" MaxLength="50" />
+    <Property Name="BirthDate" Type="date" />
+    <Property Name="Photo" Type="image" />
+    <Property Name="PhotoURL" Type="nvarchar" MaxLength="255" />
+    <Property Name="IsSuspended" Type="bit" />
+    <Property Name="RCC" Type="bit" />
+    <Property Name="RUC" Type="bit" />
+    <Property Name="OTPCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="OTPVerify" Type="bit" />
+    <Property Name="CreationDate" Type="date" />
+    <Property Name="BankBranchCode" Type="int" />
+    <Property Name="BankAccountName" Type="nvarchar" MaxLength="50" />
+    <Property Name="FCM_Token" Type="nvarchar" MaxLength="255" />
+    <Property Name="ShowProfilePhoto" Type="bit" />
+    <Property Name="Rating" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="CountRootExpertise" Type="int" />
+    <Property Name="GraduationDate" Type="date" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="Company" Type="bit" />
+    <Property Name="RV_Number" Type="int" />
+    <Property Name="IsValidPhoneNumberYN" Type="bit" />
+    <Property Name="Nationality" Type="int" />
+    <Property Name="RegionalCountriesCodes" Type="nvarchar(max)" />
+    <Property Name="RegionalCountriesArabicName" Type="nvarchar(max)" />
+    <Property Name="RegionalCountriesEnglishName" Type="nvarchar(max)" />
+    <Property Name="InternationalCountriesCodes" Type="nvarchar(max)" />
+    <Property Name="InternationalCountriesArabicName" Type="nvarchar(max)" />
+    <Property Name="InternationalCountriesEnglishName" Type="nvarchar(max)" />
+    <Property Name="LanguageCodes" Type="nvarchar(max)" />
+    <Property Name="LanguageArabicName" Type="nvarchar(max)" />
+    <Property Name="LanguageEnglishName" Type="nvarchar(max)" />
+    <Property Name="RiseCertifyYN" Type="bit" />
+    <Property Name="GoogleMapYN" Type="bit" />
+    <Property Name="SpeakArabicYN" Type="bit" />
+    <Property Name="DCHYN" Type="bit" />
+    <Property Name="SpecialExpertiseYN" Type="bit" />
+    <Property Name="CounterDCH" Type="int" />
+    <Property Name="CounterGPP" Type="int" />
+    <Property Name="CounterSpecialExpertise" Type="int" />
+    <Property Name="NoSpeakArabicYN" Type="bit" />
+  </EntityType>
+  <EntityType Name="Deduction">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Taxes" Type="int" />
+    <Property Name="RiseCommission" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Discount">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Percentage" Type="int" />
+    <Property Name="DurationInHr" Type="int" />
+    <Property Name="Description" Type="nchar" MaxLength="500" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="FinsStatement">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TransactionCode" Type="int" Nullable="false" />
+    <Property Name="UserCode" Type="int" Nullable="false" />
+    <Property Name="UserRole" Type="nvarchar" MaxLength="50" />
+    <Property Name="PaymentType" Type="nvarchar" MaxLength="255" />
+    <Property Name="Cr_Dr" Type="nvarchar" MaxLength="2" />
+    <Property Name="Taxes" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="RiseCommission" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="BankName" Type="nvarchar" MaxLength="255" />
+    <Property Name="BankBranch" Type="nvarchar" MaxLength="255" />
+    <Property Name="BankAccountName" Type="nvarchar" MaxLength="255" />
+    <Property Name="BankAccountNo" Type="nvarchar" MaxLength="255" />
+    <Property Name="MerchantCode" Type="nvarchar" MaxLength="255" />
+    <Property Name="MerchantRefNum" Type="nvarchar" MaxLength="255" />
+    <Property Name="CustomerProfileId" Type="int" />
+    <Property Name="CardToken" Type="nvarchar" MaxLength="255" />
+    <Property Name="CardLast4digits" Type="nvarchar" MaxLength="4" />
+    <Property Name="CustomerMobile" Type="nvarchar" MaxLength="255" />
+    <Property Name="CustomerEmail" Type="nvarchar" MaxLength="255" />
+    <Property Name="PaymentMethod" Type="nvarchar" MaxLength="255" />
+    <Property Name="Amount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="CurrencyCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" />
+    <Property Name="PaymentExpiry" Type="nvarchar" MaxLength="255" />
+    <Property Name="ChargeItems_ItemID" Type="nvarchar" MaxLength="255" />
+    <Property Name="ChargeItems_Price" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ChargeItems_Quantity" Type="int" />
+    <Property Name="ChargeItems_Description" Type="nvarchar" MaxLength="255" />
+    <Property Name="Signature" Type="nvarchar" MaxLength="255" />
+    <Property Name="ReferenceNumber" Type="nvarchar" MaxLength="255" />
+    <Property Name="CardCharge_StatusCode" Type="int" />
+    <Property Name="CardCharge_StatusDescription" Type="nvarchar" MaxLength="255" />
+    <Property Name="StatusCode" Type="int" />
+    <Property Name="StatusDescription" Type="nvarchar" MaxLength="255" />
+    <Property Name="PaymentStatus" Type="nvarchar" MaxLength="255" />
+    <Property Name="PaymentDate" Type="nvarchar" MaxLength="255" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="TransactionTypes" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Log_FielsUpload">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="nvarchar" MaxLength="50" />
+    <Property Name="CheckerName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LogDate" Type="datetime" />
+    <Property Name="FileTypeCode" Type="int" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Lookup_BankBranch">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BankBranchNameAR" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BankBranchNameEN" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BankCode" Type="int" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="BranchCode" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Lookup_Banks">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BankNameAR" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BankNameEN" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CountryCode" Type="int" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="BankCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Lookup_Cities">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CityNameAr" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CityNameEn" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProvinceCode" Type="int" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Lookup_Countries">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CountryNameAr" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CountryNameEn" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="CurrencyISOCode" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="ExchangeRateToEGP" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="CurrencyNameAr" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CurrencyNameEn" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Photo" Type="image" />
+    <Property Name="KeyInternational" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RegionalYN" Type="bit" />
+    <Property Name="StartBusinessYN" Type="bit" />
+  </EntityType>
+  <EntityType Name="Lookup_ExpertiseRCL">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ExpertiseCode" Type="int" Nullable="false" />
+    <Property Name="RCLCode" Type="int" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Cost" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Lookup_Expertises">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ExpertiseNameAR" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ExpertiseNameEN" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ParentExpertiseCode" Type="int" />
+    <Property Name="ExpertiseDescription" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Photo" Type="image" />
+  </EntityType>
+  <EntityType Name="Lookup_Provinces">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProvinceNameAr" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProvinceNameEn" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CountryCode" Type="int" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Lookup_RCL">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RCLNameAR" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RCLNameEN" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="YearsOfExperience" Type="int" />
+  </EntityType>
+  <EntityType Name="LOV">
+    <Key>
+      <PropertyRef Name="LOVKey" />
+    </Key>
+    <Property Name="LOVKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LOVType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LOVLineNo" Type="int" />
+    <Property Name="DescriptionsAR" Type="nvarchar(max)" />
+    <Property Name="DescriptionsEN" Type="nvarchar(max)" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="TitleAR" Type="nvarchar(max)" />
+    <Property Name="TitleEN" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="NotificationDescription">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NotificationDescriptionEN" Type="nvarchar" MaxLength="255" />
+    <Property Name="NotificationDescriptionAR" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Notifications">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactCode" Type="int" />
+    <Property Name="ContactRole" Type="nvarchar" MaxLength="3" />
+    <Property Name="SendingUser" Type="int" />
+    <Property Name="NotificationStatusCode" Type="int" />
+    <Property Name="BookingCode" Type="int" />
+    <Property Name="TotalAmount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="NotificationDate" Type="datetime" />
+    <Property Name="NotificationModBy" Type="int" />
+    <Property Name="NotificationDescriptionEN" Type="nvarchar" MaxLength="255" />
+    <Property Name="NotificationDescriptionAR" Type="nvarchar" MaxLength="255" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="IsSent" Type="bit" />
+    <Property Name="IsRead" Type="bit" />
+  </EntityType>
+  <EntityType Name="PostRV_Questions">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RV_Code" Type="int" />
+    <Property Name="Contact_Role" Type="nvarchar" MaxLength="10" />
+    <Property Name="Contact_Code" Type="int" />
+    <Property Name="LOV_Code" Type="int" />
+    <Property Name="Answer" Type="bit" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="RCC_STS">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" />
+    <Property Name="Date" Type="date" />
+    <Property Name="StartTime" Type="int" />
+    <Property Name="EndTime" Type="int" />
+    <Property Name="WorkWorkPlacesCode" Type="int" />
+    <Property Name="ExpertiseCode" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="WeekNo" Type="int" />
+  </EntityType>
+  <EntityType Name="RV">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BookingCode" Type="int" />
+    <Property Name="ExtendedBookingCode" Type="int" />
+    <Property Name="ExtendedBooking_PaymentLaterOrNow" Type="nvarchar" MaxLength="50" />
+    <Property Name="Extended_NumberOfHours" Type="int" />
+    <Property Name="Extended_FeesPerHour" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Extended_FeesBeforeDiscount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Extended_FeesAfterDiscount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="RUC_Ready" Type="bit" />
+    <Property Name="RCC_Ready" Type="bit" />
+    <Property Name="Actual_StartTime" Type="datetime" />
+    <Property Name="Actual_EndTime" Type="datetime" />
+    <Property Name="RUC_ReadyToEnd" Type="bit" />
+    <Property Name="RCC_ReadyToEnd" Type="bit" />
+    <Property Name="RUC_LastEmotion" Type="nvarchar" MaxLength="50" />
+    <Property Name="RCC_LastEmotion" Type="nvarchar" MaxLength="50" />
+    <Property Name="Request_Ext10Minutes" Type="bit" />
+    <Property Name="Decline_Ext10Minutes" Type="bit" />
+    <Property Name="Request_ExtHourOrMore" Type="bit" />
+    <Property Name="Decline_ExtHourOrMore" Type="bit" />
+    <Property Name="Extended10Minutes" Type="bit" />
+    <Property Name="ExtendedHourOrMore" Type="bit" />
+    <Property Name="RCC_To_RUC_Rating" Type="int" />
+    <Property Name="RUC_To_RCC_Rating" Type="int" />
+    <Property Name="RV_RejectedBy" Type="int" />
+    <Property Name="RUC_DisputeChoice_LOVCode" Type="int" />
+    <Property Name="RCC_DisputeChoice_LOVCode" Type="int" />
+    <Property Name="Closed_To_RUC" Type="bit" />
+    <Property Name="Closed_To_RCC" Type="bit" />
+    <Property Name="CurrentRCC_Latitude" Type="float" />
+    <Property Name="CurrentRCC_Longtiude" Type="float" />
+    <Property Name="CurrentRUC_Latitude" Type="float" />
+    <Property Name="CurrentRUC_Longtiude" Type="float" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'risetest.dbo.ScheduledNotifications' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ScheduledNotifications">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TargetUserCode" Type="int" />
+    <Property Name="BookingCode" Type="int" />
+    <Property Name="Message" Type="nvarchar" MaxLength="255" />
+    <Property Name="Date" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsSent" Type="bit" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Suspension">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SuspensionType" Type="nvarchar" MaxLength="50" />
+    <Property Name="RejectionCount" Type="int" />
+    <Property Name="TotalCount" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Sync_Flag">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DB_Version" Type="int" />
+    <Property Name="Lookup_Version" Type="int" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+    <Property Name="GroupID" Type="int" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="Moblie" Type="nvarchar" MaxLength="50" />
+    <Property Name="NationalID" Type="nvarchar" MaxLength="14" />
+  </EntityType>
+  <EntityType Name="alternativeContacts">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactKeyEmail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="alternativeType" Type="int" />
+    <Property Name="alternativeName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="alternativeTypes">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="alternativeNameAr" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="alternativeNameEn" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Contact_MeetingPoints">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" />
+    <Property Name="Latitude" Type="float" />
+    <Property Name="Longitude" Type="float" />
+    <Property Name="Address" Type="nvarchar" MaxLength="255" />
+    <Property Name="LocationName" Type="nvarchar" MaxLength="255" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Contact_Report">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FromContctCode" Type="int" />
+    <Property Name="ToContactCode" Type="int" />
+    <Property Name="LOV_Code" Type="int" />
+    <Property Name="ContactRoll" Type="nvarchar" MaxLength="255" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="CustomNotification">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Message" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="TargetUsers" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="DuePayments">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BookingCode" Type="int" Nullable="false" />
+    <Property Name="ContactCode" Type="int" Nullable="false" />
+    <Property Name="BankBranchCode" Type="int" Nullable="false" />
+    <Property Name="ReportName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="GeneratingDate" Type="datetime" Nullable="false" />
+    <Property Name="IsSent" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ExpertiseSuggestion">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" />
+    <Property Name="Discreption" Type="nvarchar(max)" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="Parent" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="date" />
+    <Property Name="InsertYN" Type="bit" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" />
+    <Property Name="MonthlySalary" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="FeaturedExpertise">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" />
+    <Property Name="Relations" Type="nvarchar(max)" />
+    <Property Name="TypeOfExpertise" Type="nvarchar(max)" />
+    <Property Name="DurationOfExpertise" Type="nvarchar(max)" />
+    <Property Name="LevelOfExpertise" Type="nvarchar(max)" />
+    <Property Name="PublicPerson" Type="nvarchar(max)" />
+    <Property Name="FoundOnline" Type="nvarchar(max)" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="SpecialRecogintion" Type="nvarchar(max)" />
+    <Property Name="Others" Type="nvarchar(max)" />
+    <Property Name="Info" Type="nvarchar(max)" />
+    <Property Name="ExpertiseLevel1" Type="int" />
+    <Property Name="SubmitYN" Type="bit" />
+    <Property Name="Cost" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="ExpertiseLevel2" Type="int" />
+    <Property Name="ExpertiseLevel3" Type="int" />
+    <Property Name="ExpertiseLevel4" Type="int" />
+    <Property Name="ExpertiseLevel5" Type="int" />
+    <Property Name="RCLCode" Type="int" />
+  </EntityType>
+  <EntityType Name="FeaturedExpertiseLog">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" />
+    <Property Name="Relations" Type="nvarchar(max)" />
+    <Property Name="TypeOfExpertise" Type="nvarchar(max)" />
+    <Property Name="DurationOfExpertise" Type="nvarchar(max)" />
+    <Property Name="LevelOfExpertise" Type="nvarchar(max)" />
+    <Property Name="PublicPerson" Type="nvarchar(max)" />
+    <Property Name="FoundOnline" Type="nvarchar(max)" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="SpecialRecogination" Type="nvarchar(max)" />
+    <Property Name="Other" Type="nvarchar(max)" />
+    <Property Name="Info" Type="nvarchar(max)" />
+    <Property Name="RCLCode" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="FielsUpload">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FileID" Type="nvarchar" MaxLength="50" />
+    <Property Name="FileSize" Type="nvarchar" MaxLength="50" />
+    <Property Name="FolderName" Type="nvarchar" MaxLength="50" />
+    <Property Name="FileTypeCode" Type="int" />
+    <Property Name="PathFileLocal" Type="nvarchar" MaxLength="255" />
+    <Property Name="PathFileServer" Type="nvarchar" MaxLength="255" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="UserID" Type="nvarchar" MaxLength="50" />
+    <Property Name="FileName" Type="nvarchar" MaxLength="50" />
+    <Property Name="PrimaryCheckYN" Type="bit" />
+    <Property Name="SecondCheckYN" Type="bit" />
+    <Property Name="BuyCheckYN" Type="bit" />
+    <Property Name="FreezeYN" Type="bit" />
+    <Property Name="ApproveYN" Type="bit" />
+    <Property Name="FileSizeBybyte" Type="float" />
+    <Property Name="UploadFileDate" Type="datetime" />
+    <Property Name="CheckerName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CheckerDate" Type="datetime" />
+    <Property Name="StatusCode" Type="int" />
+    <Property Name="RegionalYN" Type="bit" />
+    <Property Name="InternationalYN" Type="bit" />
+    <Property Name="GloabalYN" Type="bit" />
+    <Property Name="CompleteYN" Type="bit" />
+    <Property Name="InCompleteYN" Type="bit" />
+    <Property Name="CloseYN" Type="bit" />
+    <Property Name="ContactCode" Type="int" />
+    <Property Name="OnlineFormYN" Type="bit" />
+    <Property Name="SpecialExpertiseFirstYN" Type="bit" />
+    <Property Name="SpecialExpertiseSecondYN" Type="bit" />
+    <Property Name="SpecialExpertiseYN" Type="bit" />
+    <Property Name="ApproveSpecialYN" Type="bit" />
+  </EntityType>
+  <EntityType Name="GroupPermessions">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GroupID" Type="int" />
+    <Property Name="PageName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ViewYN" Type="bit" />
+    <Property Name="SaveYN" Type="bit" />
+    <Property Name="DeleteYN" Type="bit" />
+    <Property Name="EditYN" Type="bit" />
+    <Property Name="URLPageName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Groups">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GroupsNameEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="GroupsNameAR" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'risetest.risetest.Items' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Items">
+          <Property Name="ItemCode" Type="int" />
+        </EntityType>-->
+  <EntityType Name="Lookup_FileTypes">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FileTypeNameAR" Type="nvarchar" MaxLength="50" />
+    <Property Name="FileTypeNameEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Lookup_Help">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HelpTitleNameAR" Type="nvarchar" MaxLength="50" />
+    <Property Name="HelpTitleNameEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="ParentHelpCode" Type="int" />
+    <Property Name="DescriptionsAR" Type="nvarchar(max)" />
+    <Property Name="DescriptionsEN" Type="nvarchar(max)" />
+    <Property Name="AddDescriptionYN" Type="bit" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Lookup_Language">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LanguageAraName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LanguageEnName" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Lookup_Status">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatusArName" Type="nvarchar" MaxLength="50" />
+    <Property Name="StatusEnName" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="OnlineForm">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" />
+    <Property Name="Field1" Type="nvarchar" MaxLength="50" />
+    <Property Name="Field2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Field3" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="BirthDate" Type="date" />
+    <Property Name="HighSchool" Type="nvarchar" MaxLength="50" />
+    <Property Name="UniversitySchool" Type="nvarchar" MaxLength="50" />
+    <Property Name="University" Type="nvarchar" MaxLength="50" />
+    <Property Name="PostGraduated" Type="nvarchar" MaxLength="50" />
+    <Property Name="District" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="Government" Type="nvarchar" MaxLength="50" />
+    <Property Name="Competencies" Type="nvarchar(max)" />
+    <Property Name="Skills" Type="nvarchar(max)" />
+    <Property Name="Training" Type="nvarchar(max)" />
+    <Property Name="Unions" Type="nvarchar(max)" />
+    <Property Name="Clups" Type="nvarchar(max)" />
+    <Property Name="Sports" Type="nvarchar(max)" />
+    <Property Name="ScientificSocieties" Type="nvarchar(max)" />
+    <Property Name="OtherInfo" Type="nvarchar(max)" />
+    <Property Name="Qualifications" Type="nvarchar(max)" />
+    <Property Name="Languages" Type="int" />
+  </EntityType>
+  <EntityType Name="OnlineFormJops">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" />
+    <Property Name="Company" Type="nvarchar" MaxLength="50" />
+    <Property Name="StartDate" Type="date" />
+    <Property Name="EndDate" Type="date" />
+    <Property Name="Achievment" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Package">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PackageType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PackageName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Cost" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Count" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PackageInfo">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Link1" Type="nvarchar(max)" />
+    <Property Name="Link2" Type="nvarchar(max)" />
+    <Property Name="DescriptionAR" Type="nvarchar(max)" />
+    <Property Name="DescriptionEN" Type="nvarchar(max)" />
+    <Property Name="field1" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="PackageType" Type="int" />
+  </EntityType>
+  <EntityType Name="RiseStoredPlaces">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LocationName" Type="nvarchar(max)" />
+    <Property Name="Rating" Type="float" />
+    <Property Name="Distance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Longtiude" Type="nvarchar" MaxLength="50" />
+    <Property Name="Latidiude" Type="nvarchar" MaxLength="50" />
+    <Property Name="LocationAdress" Type="nvarchar(max)" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactCode" Type="int" />
+  </EntityType>
+  <EntityType Name="SpecialExpertise">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" />
+    <Property Name="Field1" Type="nvarchar" MaxLength="50" />
+    <Property Name="Field2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cost" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="ExpertiseLevel1" Type="int" />
+    <Property Name="ExpertiseLevel2" Type="int" />
+    <Property Name="ExpertiseLevel3" Type="int" />
+    <Property Name="ExpertiseLevel4" Type="int" />
+    <Property Name="Cost2" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Row2ExpertiseLevel1" Type="int" />
+    <Property Name="Row2ExpertiseLevel2" Type="int" />
+    <Property Name="Row2ExpertiseLevel3" Type="int" />
+    <Property Name="Row2ExpertiseLevel4" Type="int" />
+    <Property Name="Cost3" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Row3ExpertiseLevel1" Type="int" />
+    <Property Name="Row3ExpertiseLevel2" Type="int" />
+    <Property Name="Row3ExpertiseLevel3" Type="int" />
+    <Property Name="Row3ExpertiseLevel4" Type="int" />
+    <Property Name="Cost4" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Row4ExpertiseLevel1" Type="int" />
+    <Property Name="Row4ExpertiseLevel2" Type="int" />
+    <Property Name="Row4ExpertiseLevel3" Type="int" />
+    <Property Name="Row4ExpertiseLevel4" Type="int" />
+    <Property Name="Cost5" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Row5ExpertiseLevel1" Type="int" />
+    <Property Name="Row5ExpertiseLevel2" Type="int" />
+    <Property Name="Row5ExpertiseLevel3" Type="int" />
+    <Property Name="Row5ExpertiseLevel4" Type="int" />
+  </EntityType>
+  <EntityType Name="TransactionPayment">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactCode" Type="int" />
+    <Property Name="TransactionDate" Type="datetime" />
+    <Property Name="Amount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="TransactionTypes" Type="nvarchar" MaxLength="50" />
+    <Property Name="TransactionStatus" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Function Name="GetAll_FielsUpload_ByGroupByUserID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Update_ApproveYN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Update_FreezeYN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Update_PrimaryCheck" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Update_SecondCheckYN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="CallWebService" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="risetest">
+    <Parameter Name="parameters" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GetContact_by_ParentExpCode" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="risetest">
+    <Parameter Name="ParentExpCode" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="RiseDBModelStoreContainer">
+    <EntitySet Name="Book" EntityType="Self.Book" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Book_History" EntityType="Self.Book_History" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Bookinglink" EntityType="Self.Bookinglink" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contact_Countries" EntityType="Self.Contact_Countries" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contact_CV" EntityType="Self.Contact_CV" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contact_Expertise" EntityType="Self.Contact_Expertise" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contact_WorkPlaces" EntityType="Self.Contact_WorkPlaces" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contact_WorkPlacesProposed" EntityType="Self.Contact_WorkPlacesProposed" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contacts" EntityType="Self.Contacts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Deduction" EntityType="Self.Deduction" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Discount" EntityType="Self.Discount" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FinsStatement" EntityType="Self.FinsStatement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Log_FielsUpload" EntityType="Self.Log_FielsUpload" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lookup_BankBranch" EntityType="Self.Lookup_BankBranch" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lookup_Banks" EntityType="Self.Lookup_Banks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lookup_Cities" EntityType="Self.Lookup_Cities" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lookup_Countries" EntityType="Self.Lookup_Countries" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lookup_ExpertiseRCL" EntityType="Self.Lookup_ExpertiseRCL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lookup_Expertises" EntityType="Self.Lookup_Expertises" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lookup_Provinces" EntityType="Self.Lookup_Provinces" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lookup_RCL" EntityType="Self.Lookup_RCL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LOV" EntityType="Self.LOV" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotificationDescription" EntityType="Self.NotificationDescription" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notifications" EntityType="Self.Notifications" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PostRV_Questions" EntityType="Self.PostRV_Questions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RCC_STS" EntityType="Self.RCC_STS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RV" EntityType="Self.RV" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Suspension" EntityType="Self.Suspension" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sync_Flag" EntityType="Self.Sync_Flag" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="alternativeContacts" EntityType="Self.alternativeContacts" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="alternativeTypes" EntityType="Self.alternativeTypes" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="Contact_MeetingPoints" EntityType="Self.Contact_MeetingPoints" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="Contact_Report" EntityType="Self.Contact_Report" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="CustomNotification" EntityType="Self.CustomNotification" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="DuePayments" EntityType="Self.DuePayments" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="ExpertiseSuggestion" EntityType="Self.ExpertiseSuggestion" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="FeaturedExpertise" EntityType="Self.FeaturedExpertise" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="FeaturedExpertiseLog" EntityType="Self.FeaturedExpertiseLog" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="FielsUpload" EntityType="Self.FielsUpload" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="GroupPermessions" EntityType="Self.GroupPermessions" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="Groups" EntityType="Self.Groups" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="Lookup_FileTypes" EntityType="Self.Lookup_FileTypes" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="Lookup_Help" EntityType="Self.Lookup_Help" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="Lookup_Language" EntityType="Self.Lookup_Language" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="Lookup_Status" EntityType="Self.Lookup_Status" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="OnlineForm" EntityType="Self.OnlineForm" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="OnlineFormJops" EntityType="Self.OnlineFormJops" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="Package" EntityType="Self.Package" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="PackageInfo" EntityType="Self.PackageInfo" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="RiseStoredPlaces" EntityType="Self.RiseStoredPlaces" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="SpecialExpertise" EntityType="Self.SpecialExpertise" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="TransactionPayment" EntityType="Self.TransactionPayment" Schema="risetest" store:Type="Tables" />
+    <EntitySet Name="ScheduledNotifications" EntityType="Self.ScheduledNotifications" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ScheduledNotifications].[Code] AS [Code], 
+    [ScheduledNotifications].[TargetUserCode] AS [TargetUserCode], 
+    [ScheduledNotifications].[BookingCode] AS [BookingCode], 
+    [ScheduledNotifications].[Message] AS [Message], 
+    [ScheduledNotifications].[Date] AS [Date], 
+    [ScheduledNotifications].[IsSent] AS [IsSent], 
+    [ScheduledNotifications].[IsActive] AS [IsActive]
+    FROM [dbo].[ScheduledNotifications] AS [ScheduledNotifications]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,33 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Collections.Generic" #>
+using BTS.Entities;
+
+namespace BTS.Data.Repositories
+{
+<#
+	string inputFile = this.Host.ResolvePath(@"..\..\BTS.Entities\");
+	DirectoryInfo dir = new DirectoryInfo(inputFile);
+
+	foreach (var file in dir.GetFiles())
+    {
+		string[] parts = file.Name.Split('.');
+		
+		if (parts[1] == "cs" && parts[0] != "Entities" )
+		{
+			string className = parts[0];
+			Write("    public partial class " + className + "Repository : BaseRepository<" + className + ">" );
+			Write(Environment.NewLine);
+			Write("    {");
+			Write(Environment.NewLine);
+			Write("        public " + className + "Repository() { }");
+			Write(Environment.NewLine);
+			Write("    }");
+			Write(Environment.NewLine);
+			Write(Environment.NewLine);
+		}
+    }
+#>
+}

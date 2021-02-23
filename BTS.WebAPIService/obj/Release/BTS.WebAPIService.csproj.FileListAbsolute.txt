@@ -1,0 +1,50 @@
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\obj\Release\BTS.WebAPIService.csprojAssemblyReference.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\obj\Release\BTS.WebAPIService.csproj.CoreCompileInputs.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\csc.exe
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Collections.Immutable.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Reflection.Metadata.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\vbc.exe
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\VBCSCompiler.exe
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\VBCSCompiler.exe.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.WebAPIService.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.WebAPIService.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.WebAPIService.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Business.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Entities.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\EntityFramework.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\EntityFramework.SqlServer.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\Newtonsoft.Json.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Net.Http.Formatting.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Http.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Http.WebHost.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Data.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.ServiceManager.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Business.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Business.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Entities.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Entities.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\EntityFramework.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\EntityFramework.SqlServer.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\Newtonsoft.Json.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Net.Http.Formatting.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Http.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Http.WebHost.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Data.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Data.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.ServiceManager.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.ServiceManager.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\obj\Release\BTS.WebAPIService.csproj.CopyComplete
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\obj\Release\BTS.WebAPIService.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\obj\Release\BTS.WebAPIService.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\obj\Release\BTS.WebAPIService.csprojAssemblyReference.cache
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\obj\Release\BTS.WebAPIService.csproj.CoreCompileInputs.cache
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\obj\Release\BTS.WebAPIService.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\obj\Release\BTS.WebAPIService.pdb

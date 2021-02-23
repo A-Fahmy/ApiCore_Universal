@@ -1,0 +1,2 @@
+https://nbe.gateway.mastercard.com/api/documentation/apiDocumentation/checkout/version/latest/callback/complete.html?locale=en_US
+https://nbe.gateway.mastercard.com/api/documentation/integrationGuidelines/hostedCheckout/integrationModelHostedCheckout.html?locale=en_US#x_HCOCallbacks

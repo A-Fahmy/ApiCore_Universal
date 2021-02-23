@@ -1,0 +1,26 @@
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\BTS.Business.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\BTS.Business.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\BTS.Business.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\BTS.Data.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\BTS.Entities.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\BTS.ServiceManager.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\EntityFramework.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\EntityFramework.SqlServer.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\Newtonsoft.Json.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\BTS.Data.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\BTS.Data.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\BTS.Entities.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\BTS.Entities.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\BTS.ServiceManager.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\BTS.ServiceManager.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\EntityFramework.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\bin\Release\EntityFramework.SqlServer.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\obj\Release\BTS.Business.csprojAssemblyReference.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\obj\Release\BTS.Business.csproj.CoreCompileInputs.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\obj\Release\BTS.Business.csproj.CopyComplete
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\obj\Release\BTS.Business.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Business\obj\Release\BTS.Business.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\obj\Release\BTS.Business.csprojAssemblyReference.cache
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\obj\Release\BTS.Business.csproj.CoreCompileInputs.cache
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\obj\Release\BTS.Business.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Business\obj\Release\BTS.Business.pdb

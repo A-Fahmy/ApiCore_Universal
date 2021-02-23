@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bec4a71df21e440eac1292f0b72ac981" Name="Diagram1" ZoomLevel="63">
+        <EntityTypeShape EntityType="RiseDBModel.Contact_WorkPlaces" Width="2.625" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiseDBModel.Lookup_Banks" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiseDBModel.Lookup_Cities" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiseDBModel.Lookup_Countries" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiseDBModel.Lookup_Expertises" Width="1.5" PointX="4.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiseDBModel.Lookup_Provinces" Width="1.5" PointX="6.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiseDBModel.Lookup_RCL" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiseDBModel.LOV" Width="1.5" PointX="8.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiseDBModel.RCC_STS" Width="2.125" PointX="9.75" PointY="9.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Contact_Expertise" Width="1.5" PointX="0.75" PointY="11.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Contact_Countries" Width="2.375" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Contact_WorkPlacesProposed" Width="3" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Lookup_ExpertiseRCL" Width="1.5" PointX="9.375" PointY="6.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Sync_Flag" Width="1.5" PointX="12.375" PointY="7.75" />
+        <EntityTypeShape EntityType="RiseDBModel.User" Width="1.5" PointX="12.375" PointY="10.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Book_History" Width="1.5" PointX="8.375" PointY="13.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Discount" Width="1.5" PointX="10.375" PointY="13.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Book" Width="1.5" PointX="13.375" PointY="0.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Bookinglink" Width="1.5" PointX="12.75" PointY="13.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Deduction" Width="1.5" PointX="2.75" PointY="14.75" />
+        <EntityTypeShape EntityType="RiseDBModel.NotificationDescription" Width="2" PointX="15.375" PointY="0.75" />
+        <EntityTypeShape EntityType="RiseDBModel.ScheduledNotification" Width="1.5" PointX="10.375" PointY="16.75" />
+        <EntityTypeShape EntityType="RiseDBModel.RV" Width="1.5" PointX="17.375" PointY="0.75" />
+        <EntityTypeShape EntityType="RiseDBModel.PostRV_Questions" Width="1.5" PointX="17.375" PointY="8.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Suspension" Width="1.5" PointX="17.375" PointY="12.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Contact_Report" Width="1.5" PointX="12.375" PointY="17.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Notification" Width="1.5" PointX="14.375" PointY="17.75" />
+        <EntityTypeShape EntityType="RiseDBModel.CustomNotification" Width="1.5" PointX="17.375" PointY="15.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Lookup_BankBranch" Width="1.5" PointX="11.125" PointY="0.75" />
+        <EntityTypeShape EntityType="RiseDBModel.DuePayment" Width="1.5" PointX="16.375" PointY="18.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Contact" Width="2.875" PointX="5.375" PointY="11.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Contact_CV" Width="1.5" PointX="0.75" PointY="17.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Lookup_FileTypes" Width="1.5" PointX="18.375" PointY="18.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Group" Width="1.5" PointX="19.375" PointY="4.75" />
+        <EntityTypeShape EntityType="RiseDBModel.GroupPermession" Width="1.5" PointX="19.375" PointY="0.75" />
+        <EntityTypeShape EntityType="RiseDBModel.FielsUpload" Width="2.125" PointX="19.375" PointY="7.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Lookup_Status" Width="1.5" PointX="19.25" PointY="15.25" />
+        <EntityTypeShape EntityType="RiseDBModel.Log_FielsUpload" Width="1.5" PointX="11.375" PointY="21.25" />
+        <EntityTypeShape EntityType="RiseDBModel.Lookup_Language" Width="1.5" PointX="9.375" PointY="20.75" />
+        <EntityTypeShape EntityType="RiseDBModel.RiseStoredPlace" Width="1.5" PointX="20.375" PointY="16.75" />
+        <EntityTypeShape EntityType="RiseDBModel.OnlineForm" Width="1.5" PointX="20.375" PointY="20.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Package" Width="1.5" PointX="21.375" PointY="0.75" />
+        <EntityTypeShape EntityType="RiseDBModel.FinsStatement" Width="1.5" PointX="21.375" PointY="3.75" />
+        <EntityTypeShape EntityType="RiseDBModel.SpecialExpertise" Width="2.125" PointX="14.375" PointY="8.75" />
+        <EntityTypeShape EntityType="RiseDBModel.TransactionPayment" Width="2.125" PointX="22.375" PointY="13.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Contact_MeetingPoints" Width="1.5" PointX="9.75" PointY="23.25" />
+        <EntityTypeShape EntityType="RiseDBModel.OnlineFormJop" Width="1.5" PointX="12.25" PointY="23.5" />
+        <EntityTypeShape EntityType="RiseDBModel.FeaturedExpertise" Width="0.75" PointX="23.125" PointY="17.75" />
+        <EntityTypeShape EntityType="RiseDBModel.ExpertiseSuggestion" Width="1.5" PointX="14.375" PointY="22.75" />
+        <EntityTypeShape EntityType="RiseDBModel.Lookup_Help" Width="1.5" PointX="16.375" PointY="22.75" />
+        <EntityTypeShape EntityType="RiseDBModel.PackageInfo" Width="1.5" PointX="23.375" PointY="0.75" />
+        <EntityTypeShape EntityType="RiseDBModel.alternativeType" Width="1.5" PointX="2.75" PointY="23.75" />
+        <EntityTypeShape EntityType="RiseDBModel.alternativeContact" Width="1.5" PointX="23.375" PointY="4.75" />
+        <EntityTypeShape EntityType="RiseDBModel.FeaturedExpertiseLog" Width="1.75" PointX="23.375" PointY="7.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

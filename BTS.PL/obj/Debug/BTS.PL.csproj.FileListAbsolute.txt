@@ -1,0 +1,86 @@
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\roslyn\csc.exe
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\roslyn\System.Collections.Immutable.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\roslyn\System.Reflection.Metadata.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\roslyn\vbc.exe
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\roslyn\VBCSCompiler.exe
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\roslyn\VBCSCompiler.exe.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.PL.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.PL.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.PL.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.Business.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.Data.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.Entities.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.ServiceManager.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\EntityFramework.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\EntityFramework.SqlServer.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\FreeTextBox.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\Newtonsoft.Json.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\Syncfusion.EJ.Web.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\Syncfusion.Linq.Base.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\Syncfusion.EJ.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.Business.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.Business.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.Data.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.Data.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.Entities.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.Entities.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.ServiceManager.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\BTS.ServiceManager.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\EntityFramework.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\EntityFramework.SqlServer.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\Syncfusion.EJ.Web.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\Syncfusion.Linq.Base.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\bin\Syncfusion.EJ.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\obj\Debug\BTS.PL.csprojAssemblyReference.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\obj\Debug\BTS.PL.csproj.CoreCompileInputs.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\obj\Debug\BTS.PL.csproj.CopyComplete
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\obj\Debug\BTS.PL.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.PL\obj\Debug\BTS.PL.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\roslyn\csc.exe
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\roslyn\System.Collections.Immutable.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\roslyn\System.Reflection.Metadata.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\roslyn\vbc.exe
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\roslyn\VBCSCompiler.exe
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\roslyn\VBCSCompiler.exe.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.PL.dll.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.PL.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.PL.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.Business.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.Data.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.Entities.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.ServiceManager.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\EntityFramework.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\EntityFramework.SqlServer.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\FreeTextBox.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\Newtonsoft.Json.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.Business.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.Business.dll.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.Data.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.Data.dll.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.Entities.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.Entities.dll.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.ServiceManager.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\BTS.ServiceManager.dll.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\EntityFramework.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\EntityFramework.SqlServer.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\obj\Debug\BTS.PL.csprojAssemblyReference.cache
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\obj\Debug\BTS.PL.csproj.CoreCompileInputs.cache
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\obj\Debug\BTS.PL.csproj.CopyComplete
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\obj\Debug\BTS.PL.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.PL\obj\Debug\BTS.PL.pdb

@@ -1,0 +1,36 @@
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Entities\bin\Debug\BTS.Entities.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Entities\bin\Debug\BTS.Entities.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Entities\bin\Debug\BTS.Entities.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Entities\bin\Debug\EntityFramework.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Entities\bin\Debug\EntityFramework.SqlServer.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Entities\bin\Debug\EntityFramework.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Entities\bin\Debug\EntityFramework.SqlServer.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Entities\obj\Debug\BTS.Entities.csprojAssemblyReference.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Entities\obj\Debug\BTS.Entities.csproj.CoreCompileInputs.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Entities\obj\Debug\BTS.Entities.csproj.CopyComplete
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Entities\obj\Debug\BTS.Entities.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.Entities\obj\Debug\BTS.Entities.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Entities\bin\Debug\BTS.Entities.dll.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Entities\bin\Debug\BTS.Entities.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Entities\bin\Debug\BTS.Entities.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Entities\bin\Debug\EntityFramework.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Entities\bin\Debug\EntityFramework.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Entities\obj\Debug\BTS.Entities.csproj.CoreCompileInputs.cache
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Entities\obj\Debug\BTS.Entities.csproj.CopyComplete
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Entities\obj\Debug\BTS.Entities.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Entities\obj\Debug\BTS.Entities.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.Entities\obj\Debug\BTS.Entities.csprojAssemblyReference.cache
+D:\It systems\Universal\ApiCore_Universal\BTS.Entities\bin\Debug\BTS.Entities.dll.config
+D:\It systems\Universal\ApiCore_Universal\BTS.Entities\bin\Debug\BTS.Entities.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Entities\bin\Debug\BTS.Entities.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.Entities\bin\Debug\EntityFramework.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Entities\bin\Debug\EntityFramework.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.Entities\obj\Debug\BTS.Entities.csproj.CoreCompileInputs.cache
+D:\It systems\Universal\ApiCore_Universal\BTS.Entities\obj\Debug\BTS.Entities.csproj.CopyComplete
+D:\It systems\Universal\ApiCore_Universal\BTS.Entities\obj\Debug\BTS.Entities.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.Entities\obj\Debug\BTS.Entities.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.Entities\obj\Debug\BTS.Entities.csprojAssemblyReference.cache

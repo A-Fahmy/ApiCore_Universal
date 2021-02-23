@@ -1,0 +1,74 @@
+﻿           public static int Insert(Contact _Obj)
+        {
+            ContactRepository Obj = new ContactRepository();
+
+            Contact _Obj2 = new Contact();
+            _Obj2.FirstName = "فهمى";
+            _Obj2.LastName = "Fahmy";
+            _Obj2.MiddleName = "Fahmy";
+            _Obj2.EmailAddress = "az053543@gmail.com";
+
+            Contact[] contact = new Contact[1];
+            contact[0] = _Obj2;
+
+
+            SiebelContactInsert_Input siebelContactInsert_Input = new SiebelContactInsert_Input();
+            siebelContactInsert_Input.ListOfContactInterface = contact;
+            DefaultClient defaultClient = new DefaultClient();
+
+            defaultClient.ChannelFactory.Endpoint.Behaviors.Remove<System.ServiceModel.Description.ClientCredentials>();
+            defaultClient.ClientCredentials.UserName.UserName = "sadmin";
+            defaultClient.ClientCredentials.UserName.Password = "sadmin";
+
+            System.Net.ServicePointManager.ServerCertificateValidationCallback += (se, cert, chain, sslerror) => {
+             return true;
+            };
+
+
+
+
+
+
+            defaultClient.SiebelContactInsert(siebelContactInsert_Input);
+
+            return 1;
+        }
+
+
+  public static Contact GetByCode(string  Code)
+        {
+            //ContactRepository Obj = new ContactRepository();
+            //Contact Result = Obj.GetByCode(Code);
+            SiebelContactQueryById_Input SiebelContactQueryById_Input = new SiebelContactQueryById_Input();
+            SiebelContactQueryById_Input.PrimaryRowId = Code;
+            DefaultClient defaultClient = new DefaultClient();
+            defaultClient.ChannelFactory.Endpoint.Behaviors.Remove<System.ServiceModel.Description.ClientCredentials>();
+            defaultClient.ClientCredentials.UserName.UserName = "sadmin";
+            defaultClient.ClientCredentials.UserName.Password = "sadmin";
+            System.Net.ServicePointManager.ServerCertificateValidationCallback += (se, cert, chain, sslerror) => {
+                ;
+                return true;
+            };
+            SiebelContactQueryById_Output _Output = defaultClient.SiebelContactQueryById(SiebelContactQueryById_Input);
+            return _Output.ListOfContactInterface[0];
+        }
+
+ public static void Update(Contact _Obj)
+        {
+            //ContactRepository Obj = new ContactRepository();
+            //Obj.Update(_Obj);
+
+            Contact[] Contact = new Contact[1];
+            Contact[0] = _Obj;
+            SiebelContactUpdate_Input siebelContactUpdate_Input = new SiebelContactUpdate_Input();
+            siebelContactUpdate_Input.ListOfContactInterface = Contact;
+            DefaultClient defaultClient = new DefaultClient();
+            defaultClient.ChannelFactory.Endpoint.Behaviors.Remove<System.ServiceModel.Description.ClientCredentials>();
+            defaultClient.ClientCredentials.UserName.UserName = "sadmin";
+            defaultClient.ClientCredentials.UserName.Password = "sadmin";
+            System.Net.ServicePointManager.ServerCertificateValidationCallback += (se, cert, chain, sslerror) => {
+                ;
+                return true;
+            };
+            SiebelContactUpdate_Output _Output = defaultClient.SiebelContactUpdate(siebelContactUpdate_Input);
+        }

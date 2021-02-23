@@ -1,0 +1,78 @@
+﻿<#@ template debug="True" language="C#" hostspecific="True" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.IO" #>
+<#@ include file="MultipleOutputHelper.ttinclude" #>
+<#  bool doMultiFile=true; #>
+
+<# var manager = Manager.Create(Host, GenerationEnvironment);#>
+<#
+	string inputFile = this.Host.ResolvePath(@"..\BTS.Entities\");
+	DirectoryInfo dir = new DirectoryInfo(inputFile);
+
+	foreach (var file in dir.GetFiles())
+    {
+		string[] parts = file.Name.Split('.');
+		
+		if (parts[1] == "cs" && parts[0] != "Entities" && parts[0] != "CommonSettings")
+		{
+			string className = parts[0];
+			manager.StartNewFile(className + "ServiceManager.cs");
+		
+			Write("using System.Collections.Generic;" + Environment.NewLine);	
+			Write("using System.Web.Script.Serialization;" + Environment.NewLine);
+			Write("using BTS.Entities;" + Environment.NewLine + Environment.NewLine);	
+			
+			Write("namespace BTS.ServiceManager" + Environment.NewLine);	
+			Write("{" + Environment.NewLine);	
+			
+			Write("    public partial class " + className + "ServiceManager" + Environment.NewLine);	
+			Write("    {" + Environment.NewLine);	
+			
+			Write("        public static List<" + className + "> GetAll()" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            var serializer = new JavaScriptSerializer();" + Environment.NewLine);
+			Write("            string str = WebServiceManager.GetService(WebServiceManager.WebServiceURL + \"" + className + "/GetAll\");" + Environment.NewLine);
+			Write("            return serializer.Deserialize<List<" + className + ">>(str);" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public static List<" + className + "> GetActiveList()" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            var serializer = new JavaScriptSerializer();" + Environment.NewLine);
+			Write("            string str = WebServiceManager.GetService(WebServiceManager.WebServiceURL + \"" + className + "/GetActiveList\");" + Environment.NewLine);
+			Write("            return serializer.Deserialize<List<" + className + ">>(str);" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public static " + className + " GetByCode(int Code)" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            var serializer = new JavaScriptSerializer();" + Environment.NewLine);
+			Write("            " + className + " Obj = serializer.Deserialize<" + className + ">(WebServiceManager.GetService(WebServiceManager.WebServiceURL + \"" + className + "/GetByCode/\" + Code.ToString()));" + Environment.NewLine);
+			Write("            return Obj;" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public static int Insert(" + className + " Obj)" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            string PostData = new JavaScriptSerializer().Serialize(Obj);" + Environment.NewLine);
+			Write("            var res = WebServiceManager.PostService(WebServiceManager.WebServiceURL + \"" + className + "/Insert\", PostData);" + Environment.NewLine);
+			Write("            return int.Parse(res.ToString());" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public static void Update(" + className + " Obj)" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            string PostData = new JavaScriptSerializer().Serialize(Obj);" + Environment.NewLine);
+			Write("            var res = WebServiceManager.PostService(WebServiceManager.WebServiceURL + \"" + className + "/Update\", PostData);" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("        public static void Delete(int Code)" + Environment.NewLine);	
+			Write("        {" + Environment.NewLine);
+			Write("            string PostData = new JavaScriptSerializer().Serialize(Code);" + Environment.NewLine);
+			Write("            var res = WebServiceManager.PostService(WebServiceManager.WebServiceURL + \"" + className + "/Delete\", PostData);" + Environment.NewLine);
+			Write("        }" + Environment.NewLine);
+
+			Write("    }" + Environment.NewLine);	
+			Write("}" + Environment.NewLine);	
+
+			manager.EndBlock();
+		}
+    }
+	manager.Process(doMultiFile);	
+#>

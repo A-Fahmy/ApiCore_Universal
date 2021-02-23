@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="BTS.PL.MasterPages.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Rise - Admin</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="/client/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="/client/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/client/dist/css/main.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="/client/vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <script src="/client/vendor/jquery/jquery.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="HEPCASCriptManager" runat="server"></asp:ScriptManager>
+        <%--<div id="loader">
+    <img src="/client/images/Loader.gif" />
+    </div>--%>
+        <div id="wrapper">
+            <!-- Navigation -->
+            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/pages/login.aspx"></a>
+                </div>
+                <!-- /.navbar-header -->
+                <ul class="nav navbar-top-links navbar-right">
+                    <!-- /.dropdown -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-user fa-fw"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><i class="fa fa-user fa-fw"></i>
+                                <asp:Label ID="txtUserName" runat="server" />
+                            </li>
+
+                            <li class="divider"></li>
+                            <li>
+                                <asp:LinkButton runat="server" href="/Forms/Registeration/Login.aspx" ID="btnLogout"><i class="fa fa-sign-out fa-fw"></i> Logout</asp:LinkButton>
+                            </li>
+                        </ul>
+                        <!-- /.dropdown-user -->
+                    </li>
+                    <!-- /.dropdown -->
+                </ul>
+                <!-- /.navbar-top-links -->
+                <div class="navbar-default sidebar" role="navigation">
+                    <div class="sidebar-nav navbar-collapse">
+                        <ul class="nav" id="side-menu">
+                            <li>
+                                <a id="lnkViolationsTab" runat="server" href="#"><i class="fa fa-flag"></i>Settings</a>
+                                <ul class="nav nav-second-level collapse" runat="server" id="Nav">
+                                   <%-- <li id="lnkCountries" runat="server"><a href="/Forms/Settings/Countries.aspx"><i class="fa fa-flag"></i>Countries</a></li>
+                                    <li id="lnkProvinces" runat="server"><a href="/Forms/Settings/Provinces.aspx"><i class="fa fa-flag"></i>Provinces</a></li>
+                                    <li id="lnkCities" runat="server"><a href="/Forms/Settings/Cities.aspx"><i class="fa fa-flag"></i>Cities</a></li>
+                                    <li id="lnkBanks" runat="server"><a href="/Forms/Settings/Banks.aspx"><i class="fa fa-flag"></i>Banks</a></li>
+                                    <li id="lnkBankBranch" runat="server"><a href="/Forms/Settings/BankBranch.aspx"><i class="fa fa-flag"></i>Bank Branch</a></li>
+                                    <li id="lnkRCL" runat="server"><a href="/Forms/Settings/RCLs.aspx"><i class="fa fa-flag"></i>RCL</a></li>
+                                    <li id="lnkExpertise" runat="server"><a href="/Forms/Settings/Expertises.aspx"><i class="fa fa-flag"></i>Expertises</a></li>
+                                    <li id="lnlExpertiseRCL" runat="server"><a href="/Forms/Settings/ExpertiseRCL.aspx"><i class="fa fa-flag"></i>Expertise RCL</a></li>
+                                    <li id="Li1LOVS" runat="server"><a href="/Forms/Settings/LOVS.aspx"><i class="fa fa-flag"></i>LOV</a></li>
+                                    <li id="LiDiscount" runat="server"><a href="/Forms/Settings/Discount.aspx"><i class="fa fa-flag"></i>Discount</a></li>
+                                    <li id="NotificationDescription" runat="server"><a href="/Forms/Settings/NotificationDescription.aspx"><i class="fa fa-flag"></i>Notification Description</a></li>
+                                    <li id="Suspension" runat="server"><a href="/Forms/Settings/Suspension.aspx"><i class="fa fa-flag"></i>Account Suspension</a></li>
+                                    <li id="Deduction" runat="server"><a href="/Forms/Settings/Deduction.aspx"><i class="fa fa-flag"></i>Deduction</a></li>
+                                    <li id="Li2" runat="server"><a href="/Forms/Settings/ContactForm.aspx"><i class="fa fa-flag"></i>Contacts</a></li>
+                                    <li id="Li5" runat="server"><a href="/Forms/Settings/ContactExpertise.aspx"><i class="fa fa-flag"></i>Contact Expertise</a></li>
+                                    <li id="Li3" runat="server"><a href="/Forms/Settings/Booking.aspx"><i class="fa fa-flag"></i>Booking</a></li>
+                                    <li id="Li4" runat="server"><a href="/Forms/Settings/Financial.aspx"><i class="fa fa-flag"></i>Financial</a></li>
+                                    <li id="Li6" runat="server"><a href="/Forms/Settings/DuePayments.aspx"><i class="fa fa-flag"></i>DuePayments</a></li>
+                                    <li id="CustomNotification" runat="server"><a href="/Forms/Settings/CustomNotification.aspx"><i class="fa fa-flag"></i>Custom Notification</a></li>
+                                    <li id="Li1" runat="server"><a href="/Forms/Settings/SendSilentNotification.aspx"><i class="fa fa-flag"></i>Syncronize With Mobile App</a></li>
+                                    <li id="Li7" runat="server"><a href="/Forms/Settings/File_Types.aspx"><i class="fa fa-flag"></i> File Type</a></li>
+                                    <li id="Li9" runat="server"><a href="/Forms/Settings/LookUpGroups.aspx"><i class="fa fa-flag"></i>Groups</a></li>
+                                    <li id="Li10" runat="server"><a href="/Forms/Settings/CreateUser.aspx"><i class="fa fa-flag"></i>Create User</a></li>
+                                    <li id="Li11" runat="server"><a href="/Forms/Settings/GroupPermission.aspx"><i class="fa fa-flag"></i>Group Permission</a></li>
+
+                                    <li id="Li8" runat="server"><a href="/Forms/Settings/UploadFiels.aspx"><i class="fa fa-flag"></i>Upload Fiels</a></li>
+                                    --%>
+
+                                </ul>
+                            </li>
+                            <li id="lnkStatistics" runat="server" visible="false">
+                                <a href="/Pages/Statistics.aspx"><i class="fa fa-dashboard"></i>Statistics</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.sidebar-collapse -->
+                </div>
+                <!-- /.navbar-static-side -->
+            </nav>
+            <!-- Page Content -->
+            <div id="page-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <br />
+                            <br />
+                            <asp:ContentPlaceHolder ID="content" runat="server">
+                            </asp:ContentPlaceHolder>
+
+                        </div>
+                        <!-- /.col-lg-12 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- /#page-wrapper -->
+        </div>
+        <!-- /#wrapper -->
+        <!-- jQuery -->
+        <!-- Bootstrap Core JavaScript -->
+        <script src="/client/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!-- Metis Menu Plugin JavaScript -->
+        <script src="/client/vendor/metisMenu/metisMenu.min.js"></script>
+        <!-- Custom Theme JavaScript -->
+        <script src="/client/dist/js/main.js"></script>
+        <script>
+
+            //$("#loader").hide();
+        </script>
+    </form>
+</body>
+</html>

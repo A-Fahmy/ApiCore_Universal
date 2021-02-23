@@ -1,0 +1,299 @@
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\csc.exe
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\csc.exe.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\csc.rsp
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\csi.exe
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\csi.exe.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\csi.rsp
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.AppContext.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Collections.Immutable.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Console.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Diagnostics.Process.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.IO.Compression.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.IO.FileSystem.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.IO.Pipes.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Reflection.Metadata.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.AccessControl.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.Claims.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.Principal.Windows.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Threading.Thread.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.ValueTuple.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Xml.XmlDocument.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Xml.XPath.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\vbc.exe
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\vbc.exe.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\vbc.rsp
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\VBCSCompiler.exe
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\roslyn\VBCSCompiler.exe.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.WebAPIService.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.WebAPIService.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.WebAPIService.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\Antlr3.Runtime.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Business.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Entities.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\EntityFramework.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\EntityFramework.SqlServer.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\Microsoft.Web.Infrastructure.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\Newtonsoft.Json.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Net.Http.Formatting.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Helpers.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Http.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Http.WebHost.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Mvc.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Optimization.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Razor.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.WebPages.Deployment.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.WebPages.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.WebPages.Razor.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\WebGrease.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Data.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.ServiceManager.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Business.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Business.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Entities.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Entities.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\Antlr3.Runtime.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\EntityFramework.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\EntityFramework.SqlServer.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\Newtonsoft.Json.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Net.Http.Formatting.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Helpers.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Http.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Http.WebHost.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Mvc.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Optimization.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.Razor.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.WebPages.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.WebPages.Deployment.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\System.Web.WebPages.Razor.xml
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Data.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.Data.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.ServiceManager.pdb
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\bin\BTS.ServiceManager.dll.config
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.csprojAssemblyReference.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.csproj.CoreCompileInputs.cache
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.csproj.CopyComplete
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.dll
+E:\BestTopSystems\Mobile\BTS.Rise\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\csc.exe
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\csc.exe.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\csc.rsp
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\csi.exe
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\csi.exe.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\csi.rsp
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.AppContext.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Collections.Immutable.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Console.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Diagnostics.Process.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.IO.Compression.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.IO.FileSystem.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.IO.Pipes.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Reflection.Metadata.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.AccessControl.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.Claims.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Security.Principal.Windows.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Threading.Thread.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.ValueTuple.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Xml.XmlDocument.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Xml.XPath.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\vbc.exe
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\vbc.exe.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\vbc.rsp
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\VBCSCompiler.exe
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\roslyn\VBCSCompiler.exe.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\BTS.WebAPIService.dll.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\BTS.WebAPIService.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\BTS.WebAPIService.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\Antlr3.Runtime.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\BTS.Business.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\BTS.Entities.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\EntityFramework.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\EntityFramework.SqlServer.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\Microsoft.Web.Infrastructure.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\Newtonsoft.Json.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Net.Http.Formatting.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.Helpers.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.Http.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.Http.WebHost.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.Mvc.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.Optimization.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.Razor.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.WebPages.Deployment.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.WebPages.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.WebPages.Razor.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\WebGrease.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\BTS.Data.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\OdooRpcWrapper.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\xmlrpcwsc.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\CookComputing.XmlRpcV2.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\BTS.Business.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\BTS.Business.dll.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\BTS.Entities.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\BTS.Entities.dll.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\Antlr3.Runtime.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\EntityFramework.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\EntityFramework.SqlServer.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\Newtonsoft.Json.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Net.Http.Formatting.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.Helpers.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.Http.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.Http.WebHost.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.Mvc.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.Optimization.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.Razor.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.WebPages.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.WebPages.Deployment.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\System.Web.WebPages.Razor.xml
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\BTS.Data.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\BTS.Data.dll.config
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\bin\xmlrpcwsc.pdb
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.csprojAssemblyReference.cache
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.csproj.CoreCompileInputs.cache
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.csproj.CopyComplete
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.dll
+D:\It systems\Beet_El-Gomla\Beet_El-Gomla\BTS.Rise\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\csc.exe
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\csc.exe.config
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\csc.rsp
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\csi.exe
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\csi.exe.config
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\csi.rsp
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.AppContext.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Collections.Immutable.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Console.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Diagnostics.Process.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.IO.Compression.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.IO.FileSystem.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.IO.Pipes.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Reflection.Metadata.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Security.AccessControl.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Security.Claims.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Security.Principal.Windows.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Threading.Thread.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.ValueTuple.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Xml.XmlDocument.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Xml.XPath.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\vbc.exe
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\vbc.exe.config
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\vbc.rsp
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\VBCSCompiler.exe
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\roslyn\VBCSCompiler.exe.config
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\BTS.WebAPIService.dll.config
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\BTS.WebAPIService.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\BTS.WebAPIService.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\Antlr3.Runtime.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\BTS.Business.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\BTS.Entities.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\EntityFramework.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\EntityFramework.SqlServer.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\Microsoft.Web.Infrastructure.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\Newtonsoft.Json.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Net.Http.Formatting.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.Helpers.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.Http.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.Http.WebHost.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.Mvc.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.Optimization.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.Razor.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.WebPages.Deployment.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.WebPages.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.WebPages.Razor.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\WebGrease.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\BTS.Data.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\xmlrpcwsc.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\BTS.Business.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\BTS.Business.dll.config
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\BTS.Entities.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\BTS.Entities.dll.config
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\Antlr3.Runtime.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\EntityFramework.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\EntityFramework.SqlServer.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\Newtonsoft.Json.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Net.Http.Formatting.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.Helpers.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.Http.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.Http.WebHost.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.Mvc.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.Optimization.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.Razor.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.WebPages.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.WebPages.Deployment.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\System.Web.WebPages.Razor.xml
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\BTS.Data.pdb
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\bin\BTS.Data.dll.config
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.csprojAssemblyReference.cache
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.csproj.CoreCompileInputs.cache
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.csproj.CopyComplete
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.dll
+D:\It systems\Universal\ApiCore_Universal\BTS.WebAPIService\obj\Debug\BTS.WebAPIService.pdb
